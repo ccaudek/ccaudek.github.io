@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/courses/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/laureandi/</loc>
+    <lastmod>2020-07-14T07:52:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-07-14T07:52:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-14T07:52:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/istruzioni-stesura-elaborato-prova-finale-l24/</loc>
+    <lastmod>2020-07-14T07:52:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020/video-con-istruzioni-per-la-bibliografia-dei-laureandi/</loc>
+    <lastmod>2020-07-12T07:52:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/claudio-sica/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/cognitive-control/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/cog-control-project/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2020_jbct/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/corrado-caudek/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/debora-stendardi/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/igor-marchetti/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ilaria-colpizzi/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/post-error-adjustment/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/source-themes/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/privacy/</loc>
+    <lastmod>2020-07-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/bayesian/</loc>
+    <lastmod>2016-11-27T10:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/stan/</loc>
+    <lastmod>2016-11-27T10:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/psychometrics/</loc>
+    <lastmod>2016-11-27T10:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/stan/</loc>
+    <lastmod>2016-11-27T10:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/hugo/</loc>
+    <lastmod>2016-11-05T09:11:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hugo/</loc>
+    <lastmod>2016-11-05T09:11:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/research/</loc>
+    <lastmod>2016-11-05T09:11:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/website/</loc>
+    <lastmod>2016-11-05T09:11:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/faces/</loc>
+    <lastmod>2016-10-16T19:51:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/wm-project/</loc>
+    <lastmod>2016-10-16T19:51:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/visual-working-memory/</loc>
+    <lastmod>2016-10-16T19:51:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/corrado-caudek/</loc>
+    <lastmod>2016-10-16T19:44:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/face-aftereffect-project/</loc>
+    <lastmod>2016-10-16T19:44:32-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/replicability/</loc>
+    <lastmod>2016-10-03T08:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016/crisis/</loc>
+    <lastmod>2016-10-03T08:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/cognitive-biases/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/depression/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/individual-differences/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/depression-stwm-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/stwm/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2013_vc/</loc>
+    <lastmod>2013-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/francesco-ceccarini/</loc>
+    <lastmod>2013-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+  </url>
+  
+</urlset>

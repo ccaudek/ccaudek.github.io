@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual working memory | Welcoming Uncertainty</title>
+    <link>/tag/visual-working-memory/</link>
+      <atom:link href="/tag/visual-working-memory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Visual working memory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Oct 2016 19:51:32 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Visual working memory</title>
+      <link>/tag/visual-working-memory/</link>
+    </image>
+    
+    <item>
+      <title>Visual Working Memory</title>
+      <link>/project/wm-project/</link>
+      <pubDate>Sun, 16 Oct 2016 19:51:32 -0500</pubDate>
+      <guid>/project/wm-project/</guid>
+      <description>&lt;p&gt;Visual working memory (VWM) is a core executive function and plays a fundamental role  in our everyday lives. It is well known that the capacity of VWM is severely limited, but we poorly understand which information is stored and how is selected. A line of research studies the fidelity of memory representations in order to better understand the contents of VWM. In one study, we assessed the fidelity of VWM for faces and non-face objects. In two experiments, four levels of memory load (1, 2, 3, or 4 items) were combined with four perceptual distances between probe and study items, with maximum item confusability occurring for the minimum memory load. Under these conditions, recognition memory for multiple faces exceeded that of a single face. This result was primarily due to the higher false alarm rates for faces than non-face objects, even though the two classes of stimuli had been matched for perceptual discriminability. Control experiments revealed that this counter-intuitive result emerged only for old–new recognition choices based on near-threshold image differences. For non-face objects, instead, recognition performance decreased with increasing memory load. It is speculated that the low memorial discriminability of the transient properties of a face may serve the purpose of enhancing recognition at the individual-exemplar level.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Caudek, C. (2013). The fidelity of visual memory for faces and non-face objects. &lt;em&gt;Acta psychologica&lt;/em&gt;, &lt;em&gt;143(1)&lt;/em&gt;, 40-51.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website | Welcoming Uncertainty</title>
+    <link>/tag/website/</link>
+      <atom:link href="/tag/website/index.xml" rel="self" type="application/rss+xml" />
+    <description>website</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Nov 2016 09:11:00 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>website</title>
+      <link>/tag/website/</link>
+    </image>
+    
+    <item>
+      <title>How to change the contents of the Hugo website</title>
+      <link>/post/2016/hugo/</link>
+      <pubDate>Sat, 05 Nov 2016 09:11:00 -0500</pubDate>
+      <guid>/post/2016/hugo/</guid>
+      <description>&lt;p&gt;This is just to remind myself the workflow necessary to modify the content of the website.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For deploying the static HTML files that are generate in public on ccaudek.github.io repository, map the repository to public as a git submodule:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;git init
+git submodule add git@github.com:ccaudek/ccaudek.github.io.git public
+hugo #Build the project
+cd public #Go To Public folder
+git add -A #Add changes to git
+git commit -m &amp;quot;your message&amp;quot; #Commit changes
+git push origin master #Push source and build repos
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

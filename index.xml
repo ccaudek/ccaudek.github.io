@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcoming Uncertainty</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Welcoming Uncertainty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Welcoming Uncertainty</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutto quello che avreste sempre voluto sapere sulla stesura dell’elaborato finale e non avete mai osato chiedere</title>
+      <link>/post/2020/istruzioni-stesura-elaborato-prova-finale-l24/</link>
+      <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020/istruzioni-stesura-elaborato-prova-finale-l24/</guid>
+      <description>&lt;p&gt;Mediante questo 
+&lt;a href=&#34;https://drive.google.com/open?id=1x4lI7VUn5JmRki-87my1f6gyLcw4TIuW&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; potete accedere ad  un video in cui rispondo a tutte le possibili domande che potreste avere su questo argomento. In altre parole, vi propongo una procedura sia per realizzare sia l&amp;rsquo;elaborato finale, sia per impostare la presentazione orale. Una volta scritto l&amp;rsquo;elaborato finale seguendo queste istruzioni, potete impostare la presentazione orale. Sulla presentazione orale riceverete poi altri feedback negli incontri che saranno specificamente dedicati a questo tema.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La bibliografia delle tesi di laurea</title>
+      <link>/post/2020/video-con-istruzioni-per-la-bibliografia-dei-laureandi/</link>
+      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020/video-con-istruzioni-per-la-bibliografia-dei-laureandi/</guid>
+      <description>&lt;p&gt;Per tutti i laureandi ho creato un breve 
+&lt;a href=&#34;https://drive.google.com/file/d/1PAXPIRlzUhoUhX5Lips0Ttcj-kmGBb1-/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; con le istruzioni per creare la bibliografia delle tesi di laurea. Ci sono tanti tutorial sul web per affrontare questo problema: le semplici considerazioni che fornisco qui sono un possibile punto di partenza.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cognitive control</title>
+      <link>/project/cog-control-project/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/cog-control-project/</guid>
+      <description>&lt;p&gt;Cognitive control enables individuals to rapidly adapt to changing task demands. To investigate error-driven adjustments in cognitive control, in one study we have considered performance changes in posterror trials, when participants performed a visual search task requiring detection of angry, happy, or neutral facial expressions in crowds of faces. Whereas current models always predict a slowing down of performance after an error, we found the opposite result: when participants failed to detect the presence of a threatening face, in the following trial they were more efficient: their RTs tended to be faster with no accuracy cost.  The impact of threat-detection failure on cognitive control, as revealed by the present study, suggests that posterror adjustments should be understood as the product of domain-specific mechanisms that are strongly influenced by affective information, rather than as the effect of a general-purpose error-monitoring system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cognitive inflexibility specificity for individuals with high levels of obsessive-compulsive symptoms</title>
+      <link>/publication/journal-article/2020_jbct/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020_jbct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian modeling for Classic Test Theory</title>
+      <link>/post/2016/stan/</link>
+      <pubDate>Sun, 27 Nov 2016 10:06:00 -0500</pubDate>
+      <guid>/post/2016/stan/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Bayesian Psychometric Modeling&lt;/em&gt; by Levy and Mislevy (2016) provides a nice discussion of Bayesian modeling for the Classic Test Theory (CTT). The classic references are Lord and Novick (1968) and McDonald (1999).&lt;/p&gt;
+&lt;p&gt;Initially, Levy and Mislevy discuss the CTT by considering a single test and assuming that the measurement model parameters and the hyperparameters are known. Then they generalize to the case where there are multiple tests, still assuming that the measurement model parameters and hyperparameters are known. Finally, they consider the case where the measurement model parameters and hyperparameters are unknown. In their book, Levy and Mislevy use WinBUGS but here I re-write one of their models in Stan. I will consider the case in which the measurement model parameters and hyperparameters are unknown.&lt;/p&gt;
+&lt;p&gt;For each examinee &lt;code&gt;$i$&lt;/code&gt;, &lt;code&gt;$x_i$&lt;/code&gt; is the observable test score. The test can be made up by several items and the test score is the sum of the responses to the individual items. According to CTT, &lt;code&gt;$x_i$&lt;/code&gt; is the sum of a true score (for each examinee) and of an error component:&lt;/p&gt;
+&lt;div&gt;$$x_i = T_i + E_i,$$&lt;/div&gt;
+where `$T_i$` is the true score for examinee `$i$`, with mean `$\mu$` and variance `$\sigma_T^2$` and `$E$` is the  error component for examinee `$i$`, with mean 0 and variance  `$\sigma_E^2$`.  Errors are assumed to be uncorrelated with true scores in the population,
+&lt;div&gt;$$\rho_{TE} = 0.$$&lt;/div&gt;
+&lt;p&gt;The variance of the observed scores, &lt;code&gt;$\sigma^2_x$&lt;/code&gt;, is the sum of the true variance and of the error variance,&lt;/p&gt;
+&lt;div&gt;$$\sigma^2_x = \sigma^2_T + \sigma^2_E,$$&lt;/div&gt;
+&lt;p&gt;from which the reliability of the test is given by the ratio between the variance of the true scores and the variance of the observed scores (that is, the proportion of
+observed score variance that is accounted for by the true score variance):&lt;/p&gt;
+&lt;div&gt;$$\rho = \frac{\sigma^2_T}{\sigma^2_x}.$$&lt;/div&gt;
+&lt;p&gt;The reliability &lt;code&gt;$\rho$&lt;/code&gt; also corresponds to the squared correlation between the observed scores and the true scores, &lt;code&gt;$\rho = \rho_{xT}^2$&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Levy and Mislevy (2016) discuss how the true scores can be estimated with Kelley&amp;rsquo;s formula (Kelley, 1923).  Kelley&amp;rsquo;s formula shifts the estimate of each examinee&amp;rsquo;s true score in the direction of the sample mean by a measure which depends on the reliability of the test. If &lt;code&gt;$\rho = 1$&lt;/code&gt; the observed score becomes the estimate of the true score; if &lt;code&gt;$\rho = 0$&lt;/code&gt;, &lt;code&gt;$\mu_x$&lt;/code&gt; becomes the best estimate of the true score. The best estimate of the true score will therefore fall between &lt;code&gt;$x_i$&lt;/code&gt; and &lt;code&gt;$\mu_x$&lt;/code&gt;, and it will be closer to &lt;code&gt;$x_i$&lt;/code&gt; if the reliability of the test is higher.&lt;/p&gt;
+&lt;p&gt;Levy and Mislevy (2016) show that the posterior mean obtained from a Bayesian implementation of the CTT is consistent with Kelley&amp;rsquo;s formula. They provide a formal proof of this, but here I will only replicate the MCMC estimation via Stan. I will consider   here their last example, in which they consider the case of the CTT with an unknown measurement model. Specifically, Levy and Mislevy analyze the data of 10 examinees, each of them with 5 observable measures. This can be understood as the case in which the same test is administered to each examinee on five occasions, with no effects of learning or fatigue.&lt;/p&gt;
+&lt;p&gt;I focus here on the case in which &lt;code&gt;$\mu_T$&lt;/code&gt;, &lt;code&gt;$\sigma_T^2$&lt;/code&gt;, and &lt;code&gt;$\sigma_E^2$&lt;/code&gt; are unknown. The purpose is to estimate the reliability of the test and to estimate the true scores of the examinees by using only the observed scores.&lt;/p&gt;
+&lt;p&gt;I have re-written in Stan the WinBUGS model that Levy and Mislevy (2016) present in section 8.3.3.3. Since I will use &lt;code&gt;rstan&lt;/code&gt;, I saved the following code in a file called &lt;code&gt;ctt_2.stan&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;data {
+  int&amp;lt;lower=0&amp;gt; N; //the number of subjects (rows in the X matrix)
+  int&amp;lt;lower=0&amp;gt; J; //the number of columns in the X matrix
+  matrix[N, J] X; //the data matrix
+}
+parameters {
+  vector[N] T; //the true scores
+  real mu_T; // mean of the distribution of true scores
+  real&amp;lt;lower=0&amp;gt; sigma_T; // sd of the distribution of true scores
+  real&amp;lt;lower=0&amp;gt; sigma_E; // sd of the distribution of errors
+}
+transformed parameters {
+}
+model {
+  // Priors
+  mu_T ~ normal(0, 200);
+  sigma_T ~ normal(0, 20);
+  sigma_E ~ normal(0, 20);
+  // Likelihood
+  for (i in 1:N) {
+      T[i] ~ normal(mu_T, sigma_T);
+      for (j in 1:J) {
+          X[i, j] ~ normal(T[i], sigma_E);
+      }
+  }
+}
+generated quantities {
+  real&amp;lt;lower=0&amp;gt; reliability;
+  real&amp;lt;lower=0&amp;gt; reliability_composite;
+
+  reliability = sigma_T^2 / (sigma_T^2 + sigma_E^2);
+  reliability_composite = J * reliability / ((J - 1) * reliability + 1);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Differently from Levy and Mislevy (2016), who used priors for &lt;code&gt;$\mu_T$&lt;/code&gt;, &lt;code&gt;$\sigma_T$&lt;/code&gt;, and &lt;code&gt;$\sigma_E$&lt;/code&gt; centered on the correct values, I use much less informative priors in order to test the robustness of the estimation. I will not discuss here the details of the code. It is easy to find many introductions of Stan on the web. Let see instead how we can run this code in &lt;code&gt;R&lt;/code&gt;.  I used the following instructions:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rm(list = ls(all = TRUE))
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The previous lines of code will load Stan in the &lt;code&gt;R&lt;/code&gt; environment after clearing the workspace. With the following instructions, I create a list with the data in the appropriate format for Stan. &lt;em&gt;N&lt;/em&gt; is the number of examinees, &lt;em&gt;J&lt;/em&gt; is the number of administrations of the test for each examinee, and &lt;em&gt;X&lt;/em&gt; is the data matrix. Each row of &lt;em&gt;X&lt;/em&gt; contains the results of one examinee, with the columns providing the results of the repeated administrations of the test.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;stan_dat &amp;lt;- list(
+  N = 10,
+  J = 5,
+  X = matrix(
+    c(
+      80, 77, 80, 73, 73,
+      83, 79, 78, 78, 77,
+      85, 77, 88, 81, 80,
+      76, 76, 76, 78, 67,
+      70, 69, 73, 71, 77,
+      87, 89, 92, 91, 87,
+      76, 75, 79, 80, 75,
+      86, 75, 80, 80, 82,
+      84, 79, 79, 77, 82,
+      96, 85, 91, 87, 90
+    ), nrow = 10, ncol = 5, byrow = TRUE)
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I fitted the model contained in the &lt;code&gt;ctt_2.stan&lt;/code&gt; file as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;fit &amp;lt;- stan(file = &amp;quot;ctt_2.stan&amp;quot;,
+               data = stan_dat,
+               pars = c(&amp;quot;T&amp;quot;, &amp;quot;mu_T&amp;quot;, &amp;quot;sigma_T&amp;quot;,
+                        &amp;quot;sigma_E&amp;quot;, &amp;quot;reliability&amp;quot;,
+                        &amp;quot;reliability_composite&amp;quot;),
+               iter = 20000,
+               chains = 4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here are the results:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Inference for Stan model: ctt_2.
+4 chains, each with iter=20000; warmup=10000; thin=1;
+post-warmup draws per chain=10000, total post-warmup draws=40000.
+
+                         mean se_mean   sd    2.5%     25%     50%     75%   97.5% n_eff Rhat
+T[1]                    76.85    0.01 1.55   73.85   75.81   76.84   77.87   79.92 32011    1
+T[2]                    79.07    0.01 1.54   76.05   78.04   79.07   80.08   82.12 33954    1
+T[3]                    82.06    0.01 1.52   79.09   81.03   82.06   83.08   85.03 32860    1
+T[4]                    74.99    0.01 1.53   71.96   73.97   74.99   76.00   78.01 32862    1
+T[5]                    72.57    0.01 1.56   69.51   71.53   72.55   73.59   75.71 32570    1
+T[6]                    88.55    0.01 1.57   85.41   87.53   88.58   89.60   91.58 31220    1
+T[7]                    77.20    0.01 1.52   74.23   76.18   77.20   78.20   80.21 32944    1
+T[8]                    80.58    0.01 1.52   77.57   79.57   80.58   81.59   83.56 33246    1
+T[9]                    80.19    0.01 1.53   77.18   79.16   80.18   81.20   83.21 33681    1
+T[10]                   89.12    0.01 1.58   85.94   88.07   89.14   90.18   92.17 31818    1
+mu_T                    80.09    0.01 2.17   75.80   78.76   80.09   81.43   84.40 24525    1
+sigma_T                  6.47    0.01 1.94    3.80    5.14    6.12    7.40   11.20 21723    1
+sigma_E                  3.56    0.00 0.41    2.86    3.26    3.52    3.81    4.48 23602    1
+reliability              0.74    0.00 0.11    0.50    0.67    0.75    0.82    0.92 24608    1
+reliability_composite    0.93    0.00 0.04    0.83    0.91    0.94    0.96    0.98 25083    1
+lp__                  -107.17    0.02 2.83 -113.67 -108.86 -106.81 -105.12 -102.70 14242    1
+
+Samples were drawn using NUTS(diag_e) at Sun Nov 27 09:08:53 2016.
+For each parameter, n_eff is a crude measure of effective sample size,
+and Rhat is the potential scale reduction factor on split chains (at
+convergence, Rhat=1).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The Stan implementation of Levy and Mislevy&amp;rsquo;s model works. For example, for the estimate of the true score of the first examinee, Levy and Mislevy (2016) report a mean of 76.85, a standard deviation of 1.53, and a 95% CI of &lt;code&gt;$[73.87, 79.83]$&lt;/code&gt;. With much more generic priors, I find a mean of 76.85, a standard deviation of 1.55, and a 95% CI of &lt;code&gt;$[73.85, 79.92]$&lt;/code&gt;. Levy and Mislevy report a reliability of the composite score of 0.93, with a standard deviation of 0.04, and a 95% CI of &lt;code&gt;$[0.86, 0.98]$&lt;/code&gt;. I find a reliability of 0.94, with a standard deviation of 0.04, and a 95% CI of &lt;code&gt;$[0.83, 0.98]$&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It is interesting that, even when almost uninformative priors are used, correct estimates for the parameters can be obtained.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]],
+    displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\[&#39;,&#39;\]&#39;]],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: [&#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39;],
+    TeX: { equationNumbers: { autoNumber: &#34;AMS&#34; },
+         extensions: [&#34;AMSmath.js&#34;, &#34;AMSsymbols.js&#34;] }
+  }
+});
+&lt;/script&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+  MathJax.Hub.Queue(function() {
+    // Fix &lt;code&gt; tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i &lt; all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += &#39; has-jax&#39;;
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to change the contents of the Hugo website</title>
+      <link>/post/2016/hugo/</link>
+      <pubDate>Sat, 05 Nov 2016 09:11:00 -0500</pubDate>
+      <guid>/post/2016/hugo/</guid>
+      <description>&lt;p&gt;This is just to remind myself the workflow necessary to modify the content of the website.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For deploying the static HTML files that are generate in public on ccaudek.github.io repository, map the repository to public as a git submodule:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;git init
+git submodule add git@github.com:ccaudek/ccaudek.github.io.git public
+hugo #Build the project
+cd public #Go To Public folder
+git add -A #Add changes to git
+git commit -m &amp;quot;your message&amp;quot; #Commit changes
+git push origin master #Push source and build repos
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Working Memory</title>
+      <link>/project/wm-project/</link>
+      <pubDate>Sun, 16 Oct 2016 19:51:32 -0500</pubDate>
+      <guid>/project/wm-project/</guid>
+      <description>&lt;p&gt;Visual working memory (VWM) is a core executive function and plays a fundamental role  in our everyday lives. It is well known that the capacity of VWM is severely limited, but we poorly understand which information is stored and how is selected. A line of research studies the fidelity of memory representations in order to better understand the contents of VWM. In one study, we assessed the fidelity of VWM for faces and non-face objects. In two experiments, four levels of memory load (1, 2, 3, or 4 items) were combined with four perceptual distances between probe and study items, with maximum item confusability occurring for the minimum memory load. Under these conditions, recognition memory for multiple faces exceeded that of a single face. This result was primarily due to the higher false alarm rates for faces than non-face objects, even though the two classes of stimuli had been matched for perceptual discriminability. Control experiments revealed that this counter-intuitive result emerged only for old–new recognition choices based on near-threshold image differences. For non-face objects, instead, recognition performance decreased with increasing memory load. It is speculated that the low memorial discriminability of the transient properties of a face may serve the purpose of enhancing recognition at the individual-exemplar level.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Caudek, C. (2013). The fidelity of visual memory for faces and non-face objects. &lt;em&gt;Acta psychologica&lt;/em&gt;, &lt;em&gt;143(1)&lt;/em&gt;, 40-51.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Processing</title>
+      <link>/project/face-aftereffect-project/</link>
+      <pubDate>Sun, 16 Oct 2016 19:44:32 -0500</pubDate>
+      <guid>/project/face-aftereffect-project/</guid>
+      <description>&lt;br&gt;
+&lt;p&gt;We are all face experts. A highly debated topic is whether faces are processed differently from other objects. In one of the studies that we have carried out to explore the nature of face processing, we have examined the prioritization of attention to emotional faces. It has been hypothesized that a rapid response to a threatening face in a crowd is important to successfully interact in social environments. In our study, a visual search tasks was employed to determine whether there is a processing advantage for detecting an angry face in a crowd, compared to a happy face. In the literature, the empirical findings supporting the &lt;em&gt;anger superiority effect&lt;/em&gt; (ASE) have been criticized on the basis of possible low-level visual confounds and because of the limited ecological validity of the stimuli. Moreover, a &lt;em&gt;happiness superiority effect&lt;/em&gt; is usually found with more realistic stimuli. In our study, we tested the ASE by using dynamic (and static) images of realistic human faces, with validated emotional expressions having similar intensities, after controlling the bottom-up visual saliency and the amount of image motion. In five experiments, we found strong evidence for an ASE when using dynamic displays of facial expressions, but not when the emotions were expressed by static face images.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ceccarini, F., &amp;amp; Caudek, C. (2013). Anger superiority effect: The importance of dynamic emotional facial expressions. &lt;em&gt;Visual Cognition&lt;/em&gt;, &lt;em&gt;21(4)&lt;/em&gt;, 498-540.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Replicability crisis in psychology</title>
+      <link>/post/2016/crisis/</link>
+      <pubDate>Mon, 03 Oct 2016 08:30:00 -0500</pubDate>
+      <guid>/post/2016/crisis/</guid>
+      <description>&lt;p&gt;In case you haven&amp;rsquo;t heard it, the joke goes like this: not only the results of the research cannot be replicated, even the absence of replication cannot be replicated.&lt;/p&gt;
+&lt;p&gt;Richard Horton put it very clearly:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The case against science is straightforward: much of the scientific literature, perhaps half,
+may simply be untrue. Afflicted by studies with small sample sizes, tiny effects, invalid exploratory analyses, and flagrant conflicts of interest, together with an obsession for pursuing fashionable trends of dubious importance, science has taken a turn towards darkness.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Horton, R. (2015). What is medicine&amp;rsquo;s 5 sigma? &lt;em&gt;The Lancet&lt;/em&gt;, &lt;em&gt;385(9976)&lt;/em&gt;, 1380.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://andrewgelman.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Andrew Gelman&amp;rsquo;s blog&lt;/a&gt; reports a long-lasting discussion on such topic, which is very interesting to follow. Although not everybody agrees,
+the null-hypothesis-significance-testing (NHST) approach fares quite badly in this crisis, which is not only a crisis in psychology, obviously (actually, it seems much worse elsewhere).  Small effect sizes, small samples, small signal-to-noise ratios, and still the &lt;em&gt;p&lt;/em&gt;-value can, quite easily, be smaller than .05. The NHST was such a simple procedure: is it any wonder that it could only fail?  Should I wonder how the first-year psychology students would react, if we started teaching Bayesian statistic rather than the frequentist approach? Or, should I ask, when  will it happen?&lt;/p&gt;
+&lt;p&gt;Well, apart from the NHST, apart from the degrees of freedom of the experimenter, the money that comes from  &amp;lsquo;observing&amp;rsquo; a given result rather than another, the garden of forking paths,  the bad decisions of the Government agencies that dictate the criteria for career progression in academia, I think that it is worthwhile to remember the provocation of Nelson, Simmons, and Simonsohn (2012), who proposed the Utopia in which researchers are allowed to publish only one paper per year.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Publication quantity is no longer a relevant dimension. This system incentivizes researchers to demonstrate that an effect is robust and generalizable, and hence true and important.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; if Hari Seldon arrived at work and the published literature was slimmer and more digestible, would he be worse off? Furthermore, rather than wondering about how to evaluate two job candidates who differ in quality and quantity, Seldon would instead see candidates who were matched on the latter, allowing him to entirely focus on the former. Finally, Hari can pursue his own work with improved clarity and focus. There is only one paper to write this year. He had better make it count.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What&amp;rsquo;s wrong with that?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Individual differences in STWM biases.</title>
+      <link>/project/depression-stwm-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/depression-stwm-project/</guid>
+      <description>&lt;p&gt;The cognitive model of depression hypothesize that depressed and cognitive vulnerable individuals are prone to emotional biases in attention, interpretation, and memory  which could exacerbate distress. In one project, we studied the effects of negative cognitive style, sad mood, and facial affect on the short-term memory for the self-face and for other faces.
+Following a sad mood induction, we examined the effect on working memory of an incidental association between facial affect, facial identity, and head-pose orientation. We found that participants high in negative cognitive style who experienced higher levels of sadness displayed a stronger self-face advantage (SFA) for sad expressions than happy expressions. The remaining participants displayed an opposite bias (a stronger SFA for happy expressions than sad expressions), or no bias. These findings highlight the importance of trait-vulnerability status in the working memory biases related to emotional facial expressions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Caudek, C., &amp;amp; Monni, A. (2013). Do you remember your sad face? The roles of negative cognitive style and sad mood. &lt;em&gt;Memory&lt;/em&gt;, &lt;em&gt;21(8)&lt;/em&gt;, 891-903.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Anger superiority effect: The importance of dynamic emotional facial expressions</title>
+      <link>/publication/journal-article/2013_vc/</link>
+      <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013_vc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

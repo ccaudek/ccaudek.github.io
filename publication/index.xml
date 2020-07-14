@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Welcoming Uncertainty</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
+    
+    <item>
+      <title>Cognitive inflexibility specificity for individuals with high levels of obsessive-compulsive symptoms</title>
+      <link>/publication/journal-article/2020_jbct/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2020_jbct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anger superiority effect: The importance of dynamic emotional facial expressions</title>
+      <link>/publication/journal-article/2013_vc/</link>
+      <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013_vc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

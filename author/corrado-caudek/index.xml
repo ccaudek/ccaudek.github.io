@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corrado Caudek | Welcoming Uncertainty</title>
+    <link>/author/corrado-caudek/</link>
+      <atom:link href="/author/corrado-caudek/index.xml" rel="self" type="application/rss+xml" />
+    <description>Corrado Caudek</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Oct 2016 19:44:32 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Corrado Caudek</title>
+      <link>/author/corrado-caudek/</link>
+    </image>
+    
+    <item>
+      <title>Face Processing</title>
+      <link>/project/face-aftereffect-project/</link>
+      <pubDate>Sun, 16 Oct 2016 19:44:32 -0500</pubDate>
+      <guid>/project/face-aftereffect-project/</guid>
+      <description>&lt;br&gt;
+&lt;p&gt;We are all face experts. A highly debated topic is whether faces are processed differently from other objects. In one of the studies that we have carried out to explore the nature of face processing, we have examined the prioritization of attention to emotional faces. It has been hypothesized that a rapid response to a threatening face in a crowd is important to successfully interact in social environments. In our study, a visual search tasks was employed to determine whether there is a processing advantage for detecting an angry face in a crowd, compared to a happy face. In the literature, the empirical findings supporting the &lt;em&gt;anger superiority effect&lt;/em&gt; (ASE) have been criticized on the basis of possible low-level visual confounds and because of the limited ecological validity of the stimuli. Moreover, a &lt;em&gt;happiness superiority effect&lt;/em&gt; is usually found with more realistic stimuli. In our study, we tested the ASE by using dynamic (and static) images of realistic human faces, with validated emotional expressions having similar intensities, after controlling the bottom-up visual saliency and the amount of image motion. In five experiments, we found strong evidence for an ASE when using dynamic displays of facial expressions, but not when the emotions were expressed by static face images.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ceccarini, F., &amp;amp; Caudek, C. (2013). Anger superiority effect: The importance of dynamic emotional facial expressions. &lt;em&gt;Visual Cognition&lt;/em&gt;, &lt;em&gt;21(4)&lt;/em&gt;, 498-540.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
