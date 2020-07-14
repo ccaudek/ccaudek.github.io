@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laureandi | Welcome to my Website</title>
+    <title>Laureandi | Welcome to my website</title>
     <link>/tag/laureandi/</link>
       <atom:link href="/tag/laureandi/index.xml" rel="self" type="application/rss+xml" />
     <description>Laureandi</description>
