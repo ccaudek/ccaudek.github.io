@@ -5,12 +5,54 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 14 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Come ho creato questa pagina web</title>
+      <link>/post/2020/personal-web-page/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020/personal-web-page/</guid>
+      <description>&lt;p&gt;Queste note sono rivolte sopratutto a me stesso, per ricordarmi la procedura che ho seguito per creare questa pagina web e per modificarne i contenuti (per esempio, aggiungendo un post).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ho creato tutti i contenuti del sito web con 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;code&gt;blogdown&lt;/code&gt; in una cartella che ho chiamato &lt;code&gt;my-website&lt;/code&gt;. Per verificare i contenuti del sito web è possibile visionare una versione privata del sito che si genera con RStudio mediante l&amp;rsquo;istruzione&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;library(&amp;quot;blogdown&amp;quot;)
+blogdown::serve_site()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Si noti che, all&amp;rsquo;interno di &lt;code&gt;my-website&lt;/code&gt;, ci sarà una cartella chiamata &lt;code&gt;public&lt;/code&gt;.
+Informazioni sull&amp;rsquo;uso di &lt;code&gt;blogdown&lt;/code&gt; si trovano 
+&lt;a href=&#34;https://www.dsquintana.blog/free-website-in-r-easy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt; oppure 
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ho creato un repository sul mio account GitHub con il nome &lt;code&gt;ccaudek.github.io&lt;/code&gt; (il nome del mio account è &lt;code&gt;ccaudek&lt;/code&gt; &amp;ndash; è necessario che il nome del repository abbia questa struttura) e ho clonato questo repository sul mio Mac. Per fare questo, una volta scelta la directory appropriata, dal terminale ho utilizzato l&amp;rsquo;istruzione seguente:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ccaudek/ccaudek.github.io.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Una volta creata la cartella &lt;code&gt;ccaudek.github.io&lt;/code&gt; sul mio Mac, ho copiato all&amp;rsquo;interno di tale cartella &lt;em&gt;tutto&lt;/em&gt; il contenuto della cartella &lt;code&gt;my-website/public&lt;/code&gt; creata da &lt;code&gt;blogdown&lt;/code&gt; &amp;ndash; è necessario copiare e incollare il &lt;em&gt;contenuto&lt;/em&gt; della cartella &lt;code&gt;public&lt;/code&gt;, non la cartella &lt;code&gt;public&lt;/code&gt;!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A questo punto ho clonato nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano nella corrispondente cartella sul mio Mac:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git status
+git add --all
+git commit -m &amp;quot;commento&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dopo qualche minuto il contenuto del sito web sarà online all&amp;rsquo;indirizzo &lt;code&gt;https://ccaudek.github.io/&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilizzo la stessa procedura quando modifico un contenuto del sito, per esempio quando aggiungo un post al blog.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Pagina Facebook del laboratorio</title>
@@ -188,26 +230,6 @@ MathJax.Hub.Config({
     }
 });
 &lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to change the contents of the Hugo website</title>
-      <link>/post/2016/hugo/</link>
-      <pubDate>Sat, 05 Nov 2016 09:11:00 -0500</pubDate>
-      <guid>/post/2016/hugo/</guid>
-      <description>&lt;p&gt;This is just to remind myself the workflow necessary to modify the content of the website.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;For deploying the static HTML files that are generate in public on ccaudek.github.io repository, map the repository to public as a git submodule:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;git init
-git submodule add git@github.com:ccaudek/ccaudek.github.io.git public
-hugo #Build the project
-cd public #Go To Public folder
-git add -A #Add changes to git
-git commit -m &amp;quot;your message&amp;quot; #Commit changes
-git push origin master #Push source and build repos
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
