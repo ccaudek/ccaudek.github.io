@@ -655,15 +655,14 @@
       <p>Queste note sono rivolte sopratutto a me stesso, per ricordarmi la procedura che ho seguito per creare questa pagina web e per modificarne i contenuti (per esempio, aggiungendo un post).</p>
 <ul>
 <li>Ho creato tutti i contenuti del sito web con 
-  <i class="fab fa-r-project  pr-1 fa-fw"></i> <code>blogdown</code> in una cartella che ho chiamato <code>my-website</code>. Per verificare i contenuti del sito web è possibile visionare una versione privata del sito che si genera con RStudio mediante l&rsquo;istruzione</li>
+  <i class="fab fa-r-project  pr-1 fa-fw"></i> <code>blogdown</code> in una cartella Dropbox del mio Mac che ho chiamato <code>my-website</code>. Informazioni sull&rsquo;uso di <code>blogdown</code> si trovano 
+<a href="https://www.dsquintana.blog/free-website-in-r-easy/" target="_blank" rel="noopener">qui</a> oppure 
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">qui</a>. Per visionare una versione privata del sito generato da RStudio utilizzo l&rsquo;istruzione seguente:</li>
 </ul>
 <pre><code>library(&quot;blogdown&quot;)
 blogdown::serve_site()
 </code></pre>
-<p>Si noti che, all&rsquo;interno di <code>my-website</code>, ci sarà una cartella chiamata <code>public</code>.
-Informazioni sull&rsquo;uso di <code>blogdown</code> si trovano 
-<a href="https://www.dsquintana.blog/free-website-in-r-easy/" target="_blank" rel="noopener">qui</a> oppure 
-<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">qui</a>.</p>
+<p>Si noti che, all&rsquo;interno di <code>my-website</code>, ci sarà una cartella chiamata <code>public</code>.</p>
 <ul>
 <li>Ho creato un repository sul mio account GitHub con il nome <code>ccaudek.github.io</code> (il nome del mio account è <code>ccaudek</code> &ndash; è necessario che il nome del repository abbia questa struttura) e ho clonato questo repository sul mio Mac. Per fare questo, una volta scelta la directory appropriata, dal terminale ho utilizzato l&rsquo;istruzione seguente:</li>
 </ul>
@@ -674,7 +673,7 @@ Informazioni sull&rsquo;uso di <code>blogdown</code> si trovano
 <p>Una volta creata la cartella <code>ccaudek.github.io</code> sul mio Mac, ho copiato all&rsquo;interno di tale cartella <em>tutto</em> il contenuto della cartella <code>my-website/public</code> creata da <code>blogdown</code> &ndash; è necessario copiare e incollare il <em>contenuto</em> della cartella <code>public</code>, non la cartella <code>public</code>!</p>
 </li>
 <li>
-<p>A questo punto ho clonato nel repository GitHub <code>ccaudek.github.io</code> tutti i file che si trovano nella corrispondente cartella sul mio Mac:</p>
+<p>A questo punto ho clonato nel repository GitHub <code>ccaudek.github.io</code> tutti i file che si trovano nella corrispondente cartella del mio Mac:</p>
 </li>
 </ul>
 <pre><code>git status
