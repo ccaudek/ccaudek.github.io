@@ -212,6 +212,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172921999-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-172921999-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -569,6 +607,12 @@
         
         
       
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -598,6 +642,10 @@
             
             <option value=".year-2019">
               2019
+            </option>
+            
+            <option value=".year-2016">
+              2016
             </option>
             
             <option value=".year-2013">
@@ -667,6 +715,75 @@
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jbct.2020.03.010" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Laura Giuntoli</span>, <span >Igor Marchetti</span>, <span >Anna Panzeri</span>, <span >Andrea Spoto</span>, <span >Giulio Vidotto</span>, <span ><a href="/author/corrado-caudek/">Corrado Caudek</a></span>
+  </span>
+  (2019).
+  <a href="/publication/journal-article/2019_jbtep/">Measuring cognitive vulnerability to depression: Further evidence on the factorial and predictive validity of negative cognitive style</a>.
+  <em>Journal of Behavior Therapy and Experimental Psychiatry</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2019_jbtep/2019_jbtep.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jbtep.2019.04.005" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -805,6 +922,75 @@
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1016/j.chb.2018.11.017" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Lucia Bigozzi</span>, <span >Christian Tarchi</span>, <span ><a href="/author/corrado-caudek/">Corrado Caudek</a></span>, <span >Giuliana Pinto</span>
+  </span>
+  (2016).
+  <a href="/publication/journal-article/2016_fr/">Predicting reading and spelling disorders: A 4-year prospective cohort study</a>.
+  <em>frontiers in Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2016_fr/2016_fr.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.3389/fpsyg.2016.00337" target="_blank" rel="noopener">
   DOI
 </a>
 

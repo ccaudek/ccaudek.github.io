@@ -212,6 +212,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172921999-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-172921999-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -2086,6 +2124,106 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/journal-article/2019_jbtep/" >Measuring cognitive vulnerability to depression: Further evidence on the factorial and predictive validity of negative cognitive style</a>
+    </h3>
+
+    
+    <a href="/publication/journal-article/2019_jbtep/" class="summary-link">
+      <div class="article-style">
+        The results of two studies support the construct validity of the CSQ-SF and recommend the use of a composite score of negative cognitive style without internality
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Laura Giuntoli</span>, <span >Igor Marchetti</span>, <span >Anna Panzeri</span>, <span >Andrea Spoto</span>, <span >Giulio Vidotto</span>, <span ><a href="/author/corrado-caudek/">Corrado Caudek</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2019_jbtep/2019_jbtep.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jbtep.2019.04.005" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/publication/journal-article/2019_ijct/" >Construct validity of &#39;Not Just Right Experiences&#39;: results from a picture-based assessment procedure</a>
     </h3>
 
@@ -2286,13 +2424,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/journal-article/2013_vc/" >Anger superiority effect: The importance of dynamic emotional facial expressions</a>
+      <a href="/publication/journal-article/2016_fr/" >Predicting reading and spelling disorders: A 4-year prospective cohort study</a>
     </h3>
 
     
-    <a href="/publication/journal-article/2013_vc/" class="summary-link">
+    <a href="/publication/journal-article/2016_fr/" class="summary-link">
       <div class="article-style">
-        The Anger Superiority Effect is found for dynamic but not for static facial expressions.
+        Conceptual knowledge of the writing system predicts reading and spelling disorders
       </div>
     </a>
     
@@ -2306,7 +2444,7 @@
         
 
   
-  <span >Francesco Ceccarini</span>, <span ><a href="/author/corrado-caudek/">Corrado Caudek</a></span>
+  <span >Lucia Bigozzi</span>, <span >Christian Tarchi</span>, <span ><a href="/author/corrado-caudek/">Corrado Caudek</a></span>, <span >Giuliana Pinto</span>
       </div>
       
     </div>
@@ -2326,7 +2464,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2013_vc/2013_vc.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2016_fr/2016_fr.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -2344,7 +2482,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1080/13506285.2013.807901" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.3389/fpsyg.2016.00337" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -2363,6 +2501,13 @@
       
     
 
+    
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
     
 
   </div>
@@ -2473,7 +2618,7 @@
           
           
           
-          <a href="/tag/laureandi/" style="font-size:1.587388052831781rem">Laureandi</a>
+          <a href="/tag/laureandi/" style="font-size:1.4970913505950958rem">Laureandi</a>
         
           
           
@@ -2488,17 +2633,22 @@
           
           
           
+          <a href="/tag/publications/" style="font-size:0.7rem">publications</a>
+        
+          
+          
+          
           <a href="/tag/replicability/" style="font-size:0.7rem">replicability</a>
         
           
           
           
-          <a href="/tag/research/" style="font-size:1.259879525495411rem">research</a>
+          <a href="/tag/research/" style="font-size:1.202908649404904rem">research</a>
         
           
           
           
-          <a href="/tag/source-themes/" style="font-size:1.819759050990822rem">Source Themes</a>
+          <a href="/tag/source-themes/" style="font-size:1.8677177222151053rem">Source Themes</a>
         
           
           

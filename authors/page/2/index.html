@@ -212,6 +212,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172921999-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-172921999-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -558,6 +596,18 @@
     
     
       
+      <li><a href="/author/gioia-bottesi/">Gioia Bottesi</a></li>
+    
+      
+      <li><a href="/author/giulia-palmieri/">Giulia Palmieri</a></li>
+    
+      
+      <li><a href="/author/marta-ghisi/">Marta Ghisi</a></li>
+    
+      
+      <li><a href="/author/stefania-righi/">Stefania Righi</a></li>
+    
+      
       <li><a href="/author/andrea-guazzini/">Andrea Guazzini</a></li>
     
       
@@ -570,10 +620,10 @@
       <li><a href="/author/corrado-caudek/">Corrado Caudek</a></li>
     
       
-      <li><a href="/author/francesco-ceccarini/">Francesco Ceccarini</a></li>
+      <li><a href="/author/christian-tarchi/">Christian Tarchi</a></li>
     
       
-      <li><a href="/author/%E5%90%B3%E6%81%A9%E9%81%94/">吳恩達</a></li>
+      <li><a href="/author/giuliana-pinto/">Giuliana Pinto</a></li>
     
   </ul>
 
@@ -583,6 +633,8 @@
     
     <li class="page-item"><a class="page-link" href="/authors/">&laquo;</a></li>
     
+    
+    <li class="page-item"><a class="page-link" href="/authors/page/3/">&raquo;</a></li>
     
   </ul>
 </nav>
