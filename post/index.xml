@@ -38,9 +38,12 @@ blogdown::serve_site()
 &lt;p&gt;Una volta creata la cartella &lt;code&gt;ccaudek.github.io&lt;/code&gt; sul mio Mac, ho copiato all&amp;rsquo;interno di tale cartella &lt;em&gt;tutto&lt;/em&gt; il contenuto della cartella &lt;code&gt;my-website/public&lt;/code&gt; creata da &lt;code&gt;blogdown&lt;/code&gt; &amp;ndash; è necessario copiare e incollare il &lt;em&gt;contenuto&lt;/em&gt; della cartella &lt;code&gt;public&lt;/code&gt;, non la cartella &lt;code&gt;public&lt;/code&gt;!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;A questo punto ho clonato nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano nella corrispondente cartella del mio Mac:&lt;/p&gt;
+&lt;p&gt;A questo punto ho clonato nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano nella corrispondente cartella del mio Mac.  All&amp;rsquo;inizio della sessione utilizzo l&amp;rsquo;istruzione&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;poi&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git status
 git add --all
 git commit -m &amp;quot;commento&amp;quot;
