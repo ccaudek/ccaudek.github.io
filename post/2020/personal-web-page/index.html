@@ -284,9 +284,9 @@
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-07-15T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-10-12T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-07-15T12:26:00&#43;02:00">
+    <meta property="article:modified_time" content="2020-10-12T22:35:00&#43;02:00">
   
 
   
@@ -314,8 +314,8 @@
   },
   "headline": "Come ho creato questa pagina web",
   
-  "datePublished": "2020-07-15T00:00:00Z",
-  "dateModified": "2020-07-15T12:26:00+02:00",
+  "datePublished": "2020-10-12T00:00:00Z",
+  "dateModified": "2020-10-12T22:35:00+02:00",
   
   "author": {
     "@type": "Person",
@@ -645,7 +645,7 @@
           Last updated on
       
     
-    Jul 15, 2020
+    Oct 12, 2020
   </span>
   
 
@@ -695,42 +695,46 @@
 <li>Ho creato tutti i contenuti del sito web con 
   <i class="fab fa-r-project  pr-1 fa-fw"></i> <code>blogdown</code> in una cartella Dropbox del mio Mac che ho chiamato <code>my-website</code>. Informazioni sull&rsquo;uso di <code>blogdown</code> si trovano 
 <a href="https://www.dsquintana.blog/free-website-in-r-easy/" target="_blank" rel="noopener">qui</a> oppure 
-<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">qui</a>. Per visionare una versione privata del sito generato da RStudio utilizzo l&rsquo;istruzione seguente:</li>
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">qui</a>.</li>
 </ul>
+<p>La versione privata della pagina web è accessibile all&rsquo;indirizzo <code>http://127.0.0.1:4321</code> dopo avere eseguito le seguenti istruzioni:</p>
 <pre><code>library(&quot;blogdown&quot;)
 blogdown::serve_site()
-blogdown::build_site()
 </code></pre>
-<p>La versione privata della pagina web è accessibile all&rsquo;indirizzo <code>http://127.0.0.1:4321</code>.
-Per interrompere si usa l&rsquo;istruzione</p>
+<p>Per interrompere si usa l&rsquo;istruzione</p>
 <pre><code>blogdown::stop_server()
 </code></pre>
-<p>Si noti che, all&rsquo;interno di <code>my-website</code>, ci sarà una cartella chiamata <code>public</code>.</p>
+<p>Se voglio aggiungere un nuovo post, prima modifico i file nella cartella <code>my-website/content/post</code>, poi utilizzo l&rsquo;istruzione seguente:</p>
+<pre><code>blogdown::build_site()
+</code></pre>
+<p>Ciò modificherà i file nella cartella <code>my-website/public</code>.</p>
+<p>A questo punto non resta che clonare i contenuti di <code>my-website/public</code> su Github. Per fare questo, si può procedere come segue.</p>
 <ul>
-<li>Ho creato un repository sul mio account GitHub con il nome <code>ccaudek.github.io</code> (il nome del mio account è <code>ccaudek</code> &ndash; è necessario che il nome del repository abbia questa struttura) e ho clonato questo repository sul mio Mac. Per fare questo, una volta scelta la directory appropriata, dal terminale ho utilizzato l&rsquo;istruzione seguente:</li>
+<li>Innanzitutto è necessario clonare il contenuto del repository <code>ccaudek.github.io</code> del mio account GitHub sul mio Mac (non importa dove, ad esempio <code>Desktop/ccaudek.github.io</code>). Per fare questo, dopo</li>
 </ul>
+<pre><code>cd ~Desktop
+</code></pre>
+<p>dal terminale digito</p>
 <pre><code>git clone https://github.com/ccaudek/ccaudek.github.io.git
 </code></pre>
 <ul>
 <li>
-<p>Una volta creata la cartella <code>ccaudek.github.io</code> sul mio Mac, ho copiato all&rsquo;interno di tale cartella <em>tutto</em> il contenuto della cartella <code>my-website/public</code> creata da <code>blogdown</code> &ndash; è necessario copiare e incollare il <em>contenuto</em> della cartella <code>public</code>, non la cartella <code>public</code>!</p>
+<p>Una volta creata la cartella <code>Desktop/ccaudek.github.io</code> sul mio Mac, devo copiare all&rsquo;interno di tale cartella <em>tutto</em> il contenuto della cartella <code>my-website/public</code> creata da <code>blogdown</code> &ndash; è necessario copiare e incollare in <code>Desktop/ccaudek.github.io</code> il <em>contenuto</em> della cartella <code>public</code> (ovvero, tutte le cartelle e i file che sono lì dentro), non la cartella <code>public</code>! In altre parole, il contenuto di <code>Desktop\ccaudek.github.io</code> sarà identico a <code>my-website/public</code>.</p>
 </li>
 <li>
-<p>A questo punto ho clonato nel repository GitHub <code>ccaudek.github.io</code> tutti i file che si trovano nella corrispondente cartella del mio Mac.  All&rsquo;inizio della sessione utilizzo l&rsquo;istruzione</p>
+<p>A questo punto posso copiare nel repository GitHub <code>ccaudek.github.io</code> tutti i file che si trovano in <code>Desktop/ccaudek.github.io</code> sul mio Mac:</p>
 </li>
 </ul>
-<pre><code>git init
-</code></pre>
-<p>poi</p>
-<pre><code>git status
+<pre><code>cd ~Desktop/ccaudek.github.io
+git init
+git status
 git add --all
 git commit -m &quot;commento&quot;
 git push
 </code></pre>
 <p>Dopo qualche minuto il contenuto del sito web sarà online all&rsquo;indirizzo <code>https://ccaudek.github.io/</code>.</p>
-<ul>
-<li>Utilizzo la stessa procedura quando modifico un contenuto del sito, per esempio quando aggiungo un post al blog.</li>
-</ul>
+<p>Utilizzo la stessa procedura ogni qualvolta modifico un contenuto del sito.</p>
+<p>In realtà non mi è chiaro perché si debba utilizzare la procedura di copiare tutto <code>my-website/public</code> in un&rsquo;altra cartella e poi da lì trasferire tutto su Github. Dovrebbe essere sufficiente eseguire le istruzioni git dalla cartella <code>my-website/public</code>. Non ho mai verificato se il repository <code>ccaudek.github.io</code> su Github e <code>my-website/public</code> sono identici&hellip;</p>
 
     </div>
 

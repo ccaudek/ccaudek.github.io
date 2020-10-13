@@ -37,49 +37,53 @@
     <item>
       <title>Come ho creato questa pagina web</title>
       <link>/post/2020/personal-web-page/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020/personal-web-page/</guid>
       <description>&lt;p&gt;Queste note sono rivolte sopratutto a me stesso, per ricordarmi la procedura che ho seguito per creare questa pagina web e per modificarne i contenuti (per esempio, aggiungendo un post).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ho creato tutti i contenuti del sito web con 
   &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; &lt;code&gt;blogdown&lt;/code&gt; in una cartella Dropbox del mio Mac che ho chiamato &lt;code&gt;my-website&lt;/code&gt;. Informazioni sull&amp;rsquo;uso di &lt;code&gt;blogdown&lt;/code&gt; si trovano 
 &lt;a href=&#34;https://www.dsquintana.blog/free-website-in-r-easy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt; oppure 
-&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;. Per visionare una versione privata del sito generato da RStudio utilizzo l&amp;rsquo;istruzione seguente:&lt;/li&gt;
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;La versione privata della pagina web è accessibile all&amp;rsquo;indirizzo &lt;code&gt;http://127.0.0.1:4321&lt;/code&gt; dopo avere eseguito le seguenti istruzioni:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;library(&amp;quot;blogdown&amp;quot;)
 blogdown::serve_site()
-blogdown::build_site()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;La versione privata della pagina web è accessibile all&amp;rsquo;indirizzo &lt;code&gt;http://127.0.0.1:4321&lt;/code&gt;.
-Per interrompere si usa l&amp;rsquo;istruzione&lt;/p&gt;
+&lt;p&gt;Per interrompere si usa l&amp;rsquo;istruzione&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;blogdown::stop_server()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Si noti che, all&amp;rsquo;interno di &lt;code&gt;my-website&lt;/code&gt;, ci sarà una cartella chiamata &lt;code&gt;public&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Se voglio aggiungere un nuovo post, prima modifico i file nella cartella &lt;code&gt;my-website/content/post&lt;/code&gt;, poi utilizzo l&amp;rsquo;istruzione seguente:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;blogdown::build_site()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ciò modificherà i file nella cartella &lt;code&gt;my-website/public&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A questo punto non resta che clonare i contenuti di &lt;code&gt;my-website/public&lt;/code&gt; su Github. Per fare questo, si può procedere come segue.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ho creato un repository sul mio account GitHub con il nome &lt;code&gt;ccaudek.github.io&lt;/code&gt; (il nome del mio account è &lt;code&gt;ccaudek&lt;/code&gt; &amp;ndash; è necessario che il nome del repository abbia questa struttura) e ho clonato questo repository sul mio Mac. Per fare questo, una volta scelta la directory appropriata, dal terminale ho utilizzato l&amp;rsquo;istruzione seguente:&lt;/li&gt;
+&lt;li&gt;Innanzitutto è necessario clonare il contenuto del repository &lt;code&gt;ccaudek.github.io&lt;/code&gt; del mio account GitHub sul mio Mac (non importa dove, ad esempio &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt;). Per fare questo, dopo&lt;/li&gt;
 &lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;cd ~Desktop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;dal terminale digito&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/ccaudek/ccaudek.github.io.git
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Una volta creata la cartella &lt;code&gt;ccaudek.github.io&lt;/code&gt; sul mio Mac, ho copiato all&amp;rsquo;interno di tale cartella &lt;em&gt;tutto&lt;/em&gt; il contenuto della cartella &lt;code&gt;my-website/public&lt;/code&gt; creata da &lt;code&gt;blogdown&lt;/code&gt; &amp;ndash; è necessario copiare e incollare il &lt;em&gt;contenuto&lt;/em&gt; della cartella &lt;code&gt;public&lt;/code&gt;, non la cartella &lt;code&gt;public&lt;/code&gt;!&lt;/p&gt;
+&lt;p&gt;Una volta creata la cartella &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt; sul mio Mac, devo copiare all&amp;rsquo;interno di tale cartella &lt;em&gt;tutto&lt;/em&gt; il contenuto della cartella &lt;code&gt;my-website/public&lt;/code&gt; creata da &lt;code&gt;blogdown&lt;/code&gt; &amp;ndash; è necessario copiare e incollare in &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt; il &lt;em&gt;contenuto&lt;/em&gt; della cartella &lt;code&gt;public&lt;/code&gt; (ovvero, tutte le cartelle e i file che sono lì dentro), non la cartella &lt;code&gt;public&lt;/code&gt;! In altre parole, il contenuto di &lt;code&gt;Desktop\ccaudek.github.io&lt;/code&gt; sarà identico a &lt;code&gt;my-website/public&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;A questo punto ho clonato nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano nella corrispondente cartella del mio Mac.  All&amp;rsquo;inizio della sessione utilizzo l&amp;rsquo;istruzione&lt;/p&gt;
+&lt;p&gt;A questo punto posso copiare nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano in &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt; sul mio Mac:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;poi&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git status
+&lt;pre&gt;&lt;code&gt;cd ~Desktop/ccaudek.github.io
+git init
+git status
 git add --all
 git commit -m &amp;quot;commento&amp;quot;
 git push
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Dopo qualche minuto il contenuto del sito web sarà online all&amp;rsquo;indirizzo &lt;code&gt;https://ccaudek.github.io/&lt;/code&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Utilizzo la stessa procedura quando modifico un contenuto del sito, per esempio quando aggiungo un post al blog.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Utilizzo la stessa procedura ogni qualvolta modifico un contenuto del sito.&lt;/p&gt;
+&lt;p&gt;In realtà non mi è chiaro perché si debba utilizzare la procedura di copiare tutto &lt;code&gt;my-website/public&lt;/code&gt; in un&amp;rsquo;altra cartella e poi da lì trasferire tutto su Github. Dovrebbe essere sufficiente eseguire le istruzioni git dalla cartella &lt;code&gt;my-website/public&lt;/code&gt;. Non ho mai verificato se il repository &lt;code&gt;ccaudek.github.io&lt;/code&gt; su Github e &lt;code&gt;my-website/public&lt;/code&gt; sono identici&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
