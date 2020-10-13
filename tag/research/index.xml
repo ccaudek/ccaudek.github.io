@@ -39,7 +39,7 @@ blogdown::serve_site()
 &lt;ul&gt;
 &lt;li&gt;Innanzitutto è necessario clonare il contenuto del repository &lt;code&gt;ccaudek.github.io&lt;/code&gt; del mio account GitHub sul mio Mac (non importa dove, ad esempio &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt;). Per fare questo, dopo&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;cd ~Desktop
+&lt;pre&gt;&lt;code&gt;cd Desktop
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;dal terminale digito&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/ccaudek/ccaudek.github.io.git
@@ -52,7 +52,7 @@ blogdown::serve_site()
 &lt;p&gt;A questo punto posso copiare nel repository GitHub &lt;code&gt;ccaudek.github.io&lt;/code&gt; tutti i file che si trovano in &lt;code&gt;Desktop/ccaudek.github.io&lt;/code&gt; sul mio Mac:&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;cd ~Desktop/ccaudek.github.io
+&lt;pre&gt;&lt;code&gt;cd Desktop/ccaudek.github.io
 git init
 git status
 git add --all
