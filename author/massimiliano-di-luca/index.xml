@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Massimiliano Di Luca | Welcome to my website</title>
+    <link>/author/massimiliano-di-luca/</link>
+      <atom:link href="/author/massimiliano-di-luca/index.xml" rel="self" type="application/rss+xml" />
+    <description>Massimiliano Di Luca</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Massimiliano Di Luca</title>
+      <link>/author/massimiliano-di-luca/</link>
+    </image>
+    
+    <item>
+      <title>Inconsistency of perceived 3D shape</title>
+      <link>/publication/journal-article/2010_vr/</link>
+      <pubDate>Sat, 01 May 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2010_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relation between disparity and velocity signals of rigidly moving objects constrains depth order perception</title>
+      <link>/publication/journal-article/2007_vr/</link>
+      <pubDate>Tue, 01 May 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2007_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial integration in structure from motion</title>
+      <link>/publication/journal-article/2004_vr/</link>
+      <pubDate>Thu, 02 Dec 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2004_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short-term temporal recruitment in structure from motion</title>
+      <link>/publication/journal-article/2002_vr/</link>
+      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2002_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Illusory 3-D rotation induced by dynamic image shading</title>
+      <link>/publication/journal-article/2002_pp/</link>
+      <pubDate>Mon, 01 Apr 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2002_pp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

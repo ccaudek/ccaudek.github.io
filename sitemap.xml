@@ -138,11 +138,6 @@
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2020-07-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/andrea-spoto/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -233,8 +228,23 @@
   </url>
   
   <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>/author/cprrado-caudek/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/fulvio-domini/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/hadley-tassinari/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2008_p/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -338,18 +348,198 @@
   </url>
   
   <url>
+    <loc>/author/francesco-ceccarini/</loc>
+    <lastmod>2015-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2015_joep/</loc>
+    <lastmod>2015-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2014_cac/</loc>
+    <lastmod>2014-11-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/carlo-fantoni/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2014_jov/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/journal-article/2013_vc/</loc>
     <lastmod>2013-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/francesco-ceccarini/</loc>
-    <lastmod>2013-05-17T00:00:00+00:00</lastmod>
+    <loc>/publication/journal-article/2013_ap/</loc>
+    <lastmod>2013-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/journal-article/2013-ap/</loc>
-    <lastmod>2013-05-01T00:00:00+00:00</lastmod>
+    <loc>/publication/journal-article/2013_cac/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alessandra-monni/</loc>
+    <lastmod>2013-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2013_m/</loc>
+    <lastmod>2013-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2012_po/</loc>
+    <lastmod>2012-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2011_ap/</loc>
+    <lastmod>2011-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/rajesh-shah/</loc>
+    <lastmod>2011-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2011_po/</loc>
+    <lastmod>2011-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2011_ap2/</loc>
+    <lastmod>2011-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/rachel-foster/</loc>
+    <lastmod>2011-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2010_jov/</loc>
+    <lastmod>2010-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2010_vr/</loc>
+    <lastmod>2010-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/massimiliano-di-luca/</loc>
+    <lastmod>2010-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2010_ap/</loc>
+    <lastmod>2010-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2009_jov/</loc>
+    <lastmod>2009-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2007_vr/</loc>
+    <lastmod>2007-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2006_vr/</loc>
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2006_p/</loc>
+    <lastmod>2006-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/quoc-c-vuong-1/</loc>
+    <lastmod>2006-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2004_vr/</loc>
+    <lastmod>2004-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/dennis-r.-proffitt/</loc>
+    <lastmod>2003-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2012_hp/</loc>
+    <lastmod>2003-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2003b_vr/</loc>
+    <lastmod>2003-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2004_pp/</loc>
+    <lastmod>2003-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/quoc-c.-vuong/</loc>
+    <lastmod>2003-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2003_tcs/</loc>
+    <lastmod>2003-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/peter-skirko/</loc>
+    <lastmod>2003-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2003_pp/</loc>
+    <lastmod>2003-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2002_joephpp/</loc>
+    <lastmod>2002-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2002_vr/</loc>
+    <lastmod>2002-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2002_pp/</loc>
+    <lastmod>2002-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nava-rubin/</loc>
+    <lastmod>2001-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/journal-article/2001_vr/</loc>
+    <lastmod>2001-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

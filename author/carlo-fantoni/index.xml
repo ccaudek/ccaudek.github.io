@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carlo Fantoni | Welcome to my website</title>
+    <link>/author/carlo-fantoni/</link>
+      <atom:link href="/author/carlo-fantoni/index.xml" rel="self" type="application/rss+xml" />
+    <description>Carlo Fantoni</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Carlo Fantoni</title>
+      <link>/author/carlo-fantoni/</link>
+    </image>
+    
+    <item>
+      <title>Misperception of rigidity from actively generated optic flow</title>
+      <link>/publication/journal-article/2014_jov/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014_jov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceived Surface Slant Is Systematically Biased in the Actively-Generated Optic Flow</title>
+      <link>/publication/journal-article/2012_po/</link>
+      <pubDate>Fri, 30 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2012_po/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Modeling of Perceived Surface Slant from Actively-Generated and Passively-Observed Optic Flow</title>
+      <link>/publication/journal-article/2011_po/</link>
+      <pubDate>Thu, 14 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2011_po/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration of disparity and velocity information for haptic and perceptual judgments of object depth</title>
+      <link>/publication/journal-article/2011_ap2/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2011_ap2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic distortions of perceived planar surface motion in active vision</title>
+      <link>/publication/journal-article/2010_jov/</link>
+      <pubDate>Fri, 07 May 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2010_jov/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -47,7 +47,11 @@
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qui&lt;/a&gt;. Per visionare una versione privata del sito generato da RStudio utilizzo l&amp;rsquo;istruzione seguente:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre&gt;&lt;code&gt;library(&amp;quot;blogdown&amp;quot;)
-blogdown::serve_site()
+blogdown:::preview_site(startup = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La versione privata della pagina web è accessibile all&amp;rsquo;indirizzo &lt;code&gt;http://127.0.0.1:4321&lt;/code&gt;.
+Per interrompere si usa l&amp;rsquo;istruzione&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;blogdown::stop_server()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Si noti che, all&amp;rsquo;interno di &lt;code&gt;my-website&lt;/code&gt;, ci sarà una cartella chiamata &lt;code&gt;public&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -123,15 +127,6 @@ git push
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/publication/journal-article/2020_jbct/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Fri, 03 Jul 2020 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -293,12 +288,11 @@ Three
     </item>
     
     <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
+      <title>The intrinsic constraint model for stereo-motion integration</title>
+      <link>/publication/journal-article/2008_p/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2008_p/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -523,6 +517,30 @@ Following a sad mood induction, we examined the effect on working memory of an i
     </item>
     
     <item>
+      <title>Post-error speeding after threat-detection failure</title>
+      <link>/publication/journal-article/2015_joep/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2015_joep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This study examined the effects of cognitive control on the SRE after the encoding stage.</title>
+      <link>/publication/journal-article/2014_cac/</link>
+      <pubDate>Sun, 02 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014_cac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misperception of rigidity from actively generated optic flow</title>
+      <link>/publication/journal-article/2014_jov/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2014_jov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Anger superiority effect: The importance of dynamic emotional facial expressions</title>
       <link>/publication/journal-article/2013_vc/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
@@ -532,9 +550,193 @@ Following a sad mood induction, we examined the effect on working memory of an i
     
     <item>
       <title>The fidelity of visual memory for faces and non-face objects</title>
-      <link>/publication/journal-article/2013-ap/</link>
+      <link>/publication/journal-article/2013_ap/</link>
       <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/2013-ap/</guid>
+      <guid>/publication/journal-article/2013_ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Priming effects under correct change detection and change blindness</title>
+      <link>/publication/journal-article/2013_cac/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013_cac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do you remember your sad face? The roles of negative cognitive style and sad mood</title>
+      <link>/publication/journal-article/2013_m/</link>
+      <pubDate>Tue, 05 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2013_m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceived Surface Slant Is Systematically Biased in the Actively-Generated Optic Flow</title>
+      <link>/publication/journal-article/2012_po/</link>
+      <pubDate>Fri, 30 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2012_po/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do we perceive a flattened world on the monitor screen?</title>
+      <link>/publication/journal-article/2011_ap/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2011_ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Modeling of Perceived Surface Slant from Actively-Generated and Passively-Observed Optic Flow</title>
+      <link>/publication/journal-article/2011_po/</link>
+      <pubDate>Thu, 14 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2011_po/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration of disparity and velocity information for haptic and perceptual judgments of object depth</title>
+      <link>/publication/journal-article/2011_ap2/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2011_ap2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic distortions of perceived planar surface motion in active vision</title>
+      <link>/publication/journal-article/2010_jov/</link>
+      <pubDate>Fri, 07 May 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2010_jov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inconsistency of perceived 3D shape</title>
+      <link>/publication/journal-article/2010_vr/</link>
+      <pubDate>Sat, 01 May 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2010_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matching perceived depth from disparity and from velocity: Modeling and psychophysics</title>
+      <link>/publication/journal-article/2010_ap/</link>
+      <pubDate>Tue, 05 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2010_ap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The intrinsic constraint model and Fechnerian sensory scaling</title>
+      <link>/publication/journal-article/2009_jov/</link>
+      <pubDate>Fri, 27 Feb 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2009_jov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relation between disparity and velocity signals of rigidly moving objects constrains depth order perception</title>
+      <link>/publication/journal-article/2007_vr/</link>
+      <pubDate>Tue, 01 May 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2007_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stereo and motion information are not independently processed by the visual system</title>
+      <link>/publication/journal-article/2006_vr/</link>
+      <pubDate>Thu, 01 Jun 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2006_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disparity and Shading Cues Cooperate for Surface Interpolation</title>
+      <link>/publication/journal-article/2006_p/</link>
+      <pubDate>Wed, 18 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2006_p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial integration in structure from motion</title>
+      <link>/publication/journal-article/2004_vr/</link>
+      <pubDate>Thu, 02 Dec 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2004_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Perception and the Perception of Events</title>
+      <link>/publication/journal-article/2012_hp/</link>
+      <pubDate>Tue, 15 Apr 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2012_hp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovering slant and angular velocity from a linear velocity field: modeling and psychophysics</title>
+      <link>/publication/journal-article/2003b_vr/</link>
+      <pubDate>Fri, 28 Feb 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2003b_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evidence for patchwork approximation of shape primitives</title>
+      <link>/publication/journal-article/2004_pp/</link>
+      <pubDate>Fri, 21 Feb 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2004_pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3-D structure perceived from dynamic information: a new theory</title>
+      <link>/publication/journal-article/2003_tcs/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2003_tcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal integration of motion and stereo cues to depth</title>
+      <link>/publication/journal-article/2003_pp/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2003_pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal integration in structure from motion.</title>
+      <link>/publication/journal-article/2002_joephpp/</link>
+      <pubDate>Thu, 01 Aug 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2002_joephpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short-term temporal recruitment in structure from motion</title>
+      <link>/publication/journal-article/2002_vr/</link>
+      <pubDate>Wed, 01 May 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2002_vr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Illusory 3-D rotation induced by dynamic image shading</title>
+      <link>/publication/journal-article/2002_pp/</link>
+      <pubDate>Mon, 01 Apr 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2002_pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Segmentation in structure from motion: modeling and psychophysics</title>
+      <link>/publication/journal-article/2001_vr/</link>
+      <pubDate>Sat, 01 Sep 2001 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2001_vr/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quoc C Vuong 1 | Welcome to my website</title>
+    <link>/author/quoc-c-vuong-1/</link>
+      <atom:link href="/author/quoc-c-vuong-1/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quoc C Vuong 1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Jan 2006 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Quoc C Vuong 1</title>
+      <link>/author/quoc-c-vuong-1/</link>
+    </image>
+    
+    <item>
+      <title>Disparity and Shading Cues Cooperate for Surface Interpolation</title>
+      <link>/publication/journal-article/2006_p/</link>
+      <pubDate>Wed, 18 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/2006_p/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

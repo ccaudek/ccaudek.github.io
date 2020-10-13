@@ -698,7 +698,11 @@
 <a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">qui</a>. Per visionare una versione privata del sito generato da RStudio utilizzo l&rsquo;istruzione seguente:</li>
 </ul>
 <pre><code>library(&quot;blogdown&quot;)
-blogdown::serve_site()
+blogdown:::preview_site(startup = TRUE)
+</code></pre>
+<p>La versione privata della pagina web è accessibile all&rsquo;indirizzo <code>http://127.0.0.1:4321</code>.
+Per interrompere si usa l&rsquo;istruzione</p>
+<pre><code>blogdown::stop_server()
 </code></pre>
 <p>Si noti che, all&rsquo;interno di <code>my-website</code>, ci sarà una cartella chiamata <code>public</code>.</p>
 <ul>
@@ -1137,16 +1141,6 @@ git push
   
   <div class="container">
     <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
-  </p>
   
 
   <p class="powered-by">
