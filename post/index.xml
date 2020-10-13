@@ -61,7 +61,7 @@ git push
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Dopo qualche minuto il contenuto del sito web sarà online all&amp;rsquo;indirizzo &lt;code&gt;https://ccaudek.github.io/&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Utilizzo la stessa procedura ogni qualvolta modifico un contenuto del sito.&lt;/p&gt;
-&lt;p&gt;In realtà non mi è chiaro perché si debba utilizzare la procedura di copiare tutto &lt;code&gt;my-website/public&lt;/code&gt; in un&amp;rsquo;altra cartella e poi da lì trasferire tutto su Github. Dovrebbe essere sufficiente eseguire le istruzioni git dalla cartella &lt;code&gt;my-website/public&lt;/code&gt;. Non ho mai verificato se il repository &lt;code&gt;ccaudek.github.io&lt;/code&gt; su Github e &lt;code&gt;my-website/public&lt;/code&gt; sono identici&amp;hellip;&lt;/p&gt;
+&lt;p&gt;In realtà non mi è chiaro perché si debba utilizzare la procedura di copiare tutto &lt;code&gt;my-website/public&lt;/code&gt; in un&amp;rsquo;altra cartella che è un clone di &lt;code&gt;ccaudek.github.io&lt;/code&gt; e poi da lì trasferire tutto su Github. Forse è sufficiente eseguire le istruzioni &lt;code&gt;git&lt;/code&gt; dalla cartella &lt;code&gt;my-website/public&lt;/code&gt;. Non ho mai verificato se il repository &lt;code&gt;ccaudek.github.io&lt;/code&gt; su Github e la cartella &lt;code&gt;my-website/public&lt;/code&gt; sono identici&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
