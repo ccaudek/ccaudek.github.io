@@ -15,7 +15,21 @@ source("_common.R")
 
 # Current Corses (AA 2024-2025)
 
+[Scienze e Tecniche Psicologiche](https://www.psicologia.unifi.it/vp-130-scienze-e-tecniche-psicologiche-l-24.html)
+
 - [Psicometria](https://ccaudek.github.io/psicometria-r/)
+- [Laboratorio di valutazione psicologica](https://unifi.coursecatalogue.cineca.it/insegnamenti/2024/25997_B018-17-22_72779_624243/2017/25998/477?coorte=2022)
+
+[Psicologia Clinica e della Salute e Neuropsicologia](https://unifi.coursecatalogue.cineca.it/corsi/2024/3252?annoOrdinamento=2023)
+
 - [Testing Psicologico](https://ccaudek.github.io/testing_psicologico/)
 - [Laboratorio di Testing Psicologico](https://ccaudek.github.io/labtestpsi/)
-- [Laboratorio di valutazione psicologica](https://unifi.coursecatalogue.cineca.it/insegnamenti/2024/25997_B018-17-22_72779_624243/2017/25998/477?coorte=2022)
+
+## Corso di Perfezionamento Post-Laurea
+
+[Meditazione, Compassione e Gestione Emozionale per le Professioni di Aiuto](https://ccaudek.github.io/compassion/intro.html)
+
+- [Training cognitivo e contemplativo per lo sviluppo della compassione](https://ccaudek.github.io/perfezionamento/)
+
+
+
