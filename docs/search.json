@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Corrado Caudek",
-    "section": "",
-    "text": "Welcome to my personal website!\nI am an Associate Professor of Psychometrics and Quantitative Psychology at the University of Florence, Italy. My research explores individual differences in cognitive styles and strategies, with a focus on associative learning deficits, eating disorders, and self-compassion. The overarching aim of my work is to contribute to the development of more effective intervention strategies for psychological disorders, both at the individual and population levels."
-  },
-  {
     "objectID": "blog/2021-10-01-sommatorie/index.html",
     "href": "blog/2021-10-01-sommatorie/index.html",
     "title": "Sommatorie",
@@ -145,6 +138,13 @@
     "title": "CaudekLab",
     "section": "Visitors",
     "text": "Visitors\nI warmly welcome visiting scholars and students to join my lab. While I currently do not have funding available to sponsor visitors, I would be delighted to host you if you can secure funding through your own institution or other sources. To explore this opportunity, please email me your CV and a detailed research plan so we can discuss potential collaborations further."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Corrado Caudek",
+    "section": "",
+    "text": "Welcome to my personal website!\nI am an Associate Professor of Psychometrics and Quantitative Psychology at the University of Florence, Italy. My research explores individual differences in cognitive styles and strategies, with a focus on associative learning deficits, eating disorders, and self-compassion. The overarching aim of my work is to contribute to the development of more effective intervention strategies for psychological disorders, both at the individual and population levels."
   },
   {
     "objectID": "about.html",
