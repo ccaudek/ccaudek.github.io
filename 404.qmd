@@ -24,8 +24,8 @@ source("_common.R")
 
 ```{r}
 icon_link(
-    text = "Return to home",
-    url  = "https://www.jhelvy.com"
+  text = "Return to home",
+  url  = "https://ccaudek.github.io/"
 )
 ```
 
