@@ -21,4 +21,4 @@ source("_common.R")
 
 ### Welcome to my personal website!
 
-I am an Associate Professor of Psychometrics and Quantitative Psychology at the University of Florence, Italy. My research explores individual differences in cognitive styles and strategies, with a focus on associative learning deficits, eating disorders, and self-compassion. The overarching aim of my work is to contribute to the development of more effective intervention strategies for psychological disorders, both at the individual and population levels.
+I am an Associate Professor of Psychometrics and Quantitative Psychology at the [University of Florence](https://www.unifi.it/en), Italy. My research explores individual differences in cognitive styles and strategies, with a focus on associative learning deficits, eating disorders, and self-compassion. The overarching aim of my work is to contribute to the development of more effective intervention strategies for psychological disorders, both at the individual and population levels.
