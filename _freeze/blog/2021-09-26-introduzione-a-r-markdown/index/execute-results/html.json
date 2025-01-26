@@ -1,0 +1,15 @@
+{
+  "hash": "34a6056d91736c1b9495848e6be6d457",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Introduzione a R Markdown\"\ndescription: |\n  Integrazione tra R e il linguaggio di markup Markdown.\nauthor:\n  - name: Corrado Caudek\n    url: {}\ndate: 09-26-2021\noutput:\n  distill::distill_article:\n    self_contained: false\ncategories:\n  - R\n  - teaching\n---\n\n\n\n\n\n\n\nPosto qui il [link](https://drive.google.com/file/d/1dTXClK-EB_FJc9N4OVNl62N4oB9Olxdz/view?usp=sharing) ad un breve video-tutorial sull'uso di R Markdown.\n\nLa migliore descrizione del flusso di lavoro (workflow) con R Markdown è fornita in questo [capitolo](https://r4ds.had.co.nz/r-markdown-workflow.html) di [R for Data Science](https://r4ds.had.co.nz/index.html).\n\nPer chi ha bisogno di un'introduzione, risultano sicuramente utili anche le [slide](https://slides.djnavarro.net/starting-rmarkdown/#1) di Danielle Navarro.\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

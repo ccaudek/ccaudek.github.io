@@ -1,0 +1,35 @@
+---
+title: "About"
+toc: true
+toc-location: left
+lightbox: true
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+I am an Associate Professor of Psychometrics and Quantitative Psychology at [Università degli Studi di Firenze](https://www.unifi.it) in Italy. 
+
+# Short Bio
+
+Prior to joining the University of Florence, I was a Postdoctoral Researcher at the [Center for Neural Science](https://as.nyu.edu/cns.html) at [New York University](http://www.nyu.edu), a Postdoctoral Researcher at [University of Trieste](https://www.units.it), and an Associate Professor at [University of Trieste](https://www.units.it).
+
+# Contact Me
+
+The easiest way to get in touch with me is by [email](mailto:corrado.caudek@unifi.it).
+
+# Location
+
+Dipartimento [NEUROFARBA](https://www.neurofarba.unifi.it), Università degli Studi di Firenze
+
+Via di San Salvi n. 12, Complesso di S. Salvi, Padiglione 26, Firenze, 50139, Italy.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5762.26157132083!2d11.284630893675219!3d43.77014390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdipartimento%20di%20psicologia%20via%20di%20san%20salvi%20firenze!5e0!3m2!1sen!2sit!4v1669097237298!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+Thanks for visiting my site!
+

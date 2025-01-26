@@ -1,0 +1,128 @@
+---
+title: "Stimatori distorti e non distorti della varianza"
+description: |
+  Dividere per n - 1.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 09-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+ategories:
+  - R
+  - Psicometria
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Ci sono due formule per la varianza:
+
+$$
+S^2 = \frac{\sum_{i = 1}^n (X_i - \bar{X})^2}{n}
+$$
+
+e
+
+$$
+s^2 = \frac{\sum_{i = 1}^n (X_i - \bar{X})^2}{n - 1}
+$$
+La prima formula è quella di una _statistica_, e si pone il problema di fornire descrizione sintetica di una proprietà del campione -- in questo caso, la varianza.
+
+La seconda formula è quella di uno _stimatore_,  e si pone l'obiettivo di descrivere, nella maniera più fedele possibile, una proprietà della popolazione -- in questo caso, la varianza -- utilizzando le informazioni presenti nel campione.
+
+La prima formula, quella con $n$ al denominatore, fallisce nello scopo che la seconda formula si propone di raggiungere (ovvero, l'obiettivo di descrivere le proprietà della popolazione). Infatti, in media, produrrà una stima troppo piccola.  Usiamo una simulazione per esaminare questa faccenda.
+
+Iniziamo a definire le proprietà della popolazione.
+
+```{r}
+mu <- 100 
+sigma <- 15
+```
+
+Decidiamo, inoltre, di considerare campioni di ampiezza $n$ = 30.
+
+```{r}
+sample_size <- 30
+```
+
+Nel caso di un singolo campione, per esempio, abiamo:
+
+```{r}
+one_sample <- rnorm(sample_size, mu, sigma) 
+mean(one_sample)
+var(one_sample)
+```
+
+Ma un singolo campione ci dice poco delle caratteristiche della "formula" che stiamo esaminando -- quella che ha $n$ al denominatore. Dato che è facile farlo con R, esaminiamo quello che succede quando consideriamo __un milione__ di campioni:
+
+```{r}
+var_distr <- replicate(
+  1e6,
+    var(
+      rnorm(sample_size, mu, sigma) 
+    ) * (sample_size - 1) / sample_size
+)
+```
+
+La funzione `rnorm()` estrae un campione casuale di ampiezza `sample_size` (ovvero, 30) da una popolazione normale di media 100 e deviazione standard 15.  La varianza della popolazione è dunque
+
+```{r}
+15^2
+```
+
+La funzione `var() * (sample_size - 1) / sample_size` calcola la varianza delle 30 osservazioni di un campione utilizzando la prima formula (con $n$ al denominatore).
+
+La funzione `replicate()` ripete un milione di volte questi calcoli, ovvero calcola la varianza di un milione di campioni casuali di ampiezza 30 estratti da una popolazione normale di media 100 e varianza $15^2$. Ciò significa che l'oggetto `var_distr` conterrà un milione di numeri: le varianze calcolate con la prima formula, per un milione di campioni casuali estratti dalla popolazione di riferimento.
+
+Quanto bene ha funzionato la prima formula? Ovviamente, alcune volte (cioé, per alcuni campioni) meglio, altre volte peggio. Il valore più piccolo che abbiamo ottenuto è
+
+```{r}
+min(var_distr)
+```
+
+e il valore più grande che abbiamo ottenuto è
+
+```{r}
+max(var_distr)
+```
+
+Il valore medio -- ovvero, il valore atteso del valore che si ottiene utilizzando la prima formula, è
+
+```{r}
+mean(var_distr)
+```
+
+Questo valore è chiaramente troppo piccolo.  In altre parole, la prima formula, se venisse usata per stimare la varianza della popolazione produrrebbe una __sottostima__ del valore del parametro cercato.
+
+Si può correggere questo errore sistematico?
+
+Certamente!  E questo è lo scopo della seconda formula, quella con $n - 1$ al denominatore.  Ripetiamo la simulazione usando la seconda formula:
+
+```{r}
+var_distr_c <- replicate(
+  1e6,
+  var(
+    rnorm(sample_size, mu, sigma) 
+  )
+)
+```
+
+In questo caso, il valore atteso è
+
+```{r}
+mean(var_distr_c)
+```
+
+uguale al valore del parametro 
+
+```{r}
+15^2
+```
+
+Nella simulazione il risultato non è perfetto, ma si capisce che questa è, appunto, una simulazione: aumentando il numero delle ripetizioni si otterrebbe un valore sempre più simile al valore teorico.  Ma non è necessario fare questo. La conclusione è chiara: _la seconda formula ci fornisce uno stimatore corretto_ (ovvero, privo di errore sistematico) _della varianza della popolazione_.  Per questa ragione dividiamo per ($n$ - 1).
+
+

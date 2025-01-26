@@ -1,0 +1,346 @@
+---
+title: "Istogramma"
+description: |
+  La rappresentazione grafica della distribuzione dei dati.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 10-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - L-24
+  - Psicometria
+  - teaching
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Obiettivi di questo tutorial {-}
+
+In questo tutorial ci poniamo il problema di costruire un istrogramma utilizzando la  funzione `ggplot()` del pacchetto `ggplot2` in R. Vedremo quali sono i limiti degli istogrammi. Concluderemo introducendo una rappresentazione alternativa, la *densità della frequenza dei dati*, la quale attenua i limiti degli istogrammi.
+
+# Carichiamo i pacchetti necessari
+
+```{r}
+suppressPackageStartupMessages(library("tidyverse"))
+theme_set(bayesplot::theme_default(base_size = 14))
+suppressPackageStartupMessages(library("knitr"))
+suppressPackageStartupMessages(library("kableExtra"))
+suppressPackageStartupMessages(library("patchwork"))
+knitr::opts_chunk$set(fig.align = "center", fig.width = 6, fig.height = 4)
+```
+
+# Introduzione
+
+Iniziamo con delle considerazioni di base.  
+
+L'intervallo `(a, b]` si dice __aperto a sinistra e chiuso a destra__. Significa 
+
+$$
+a < x \leq b,
+$$
+
+ovvero, descrive la situazione nella quale i valori che coincidono con il limite superiore dell'intervallo verranno inclusi nell'intervallo, mentre i valori che coincidono con il limte inferiore dell'intervanno non verranno inclusi nell'intervallo.
+
+Consideriamo questi dati:
+
+```{r}
+x <- c(1, 2, 1, 1, 5, 3, 2, 6)
+```
+
+Supponiamo di volere i seguenti intervalli aperti a sinistra e chiusi a destra:
+
+- (0, 2]
+- (2, 4]
+- (4, 6]
+- (6, 8]
+
+Per la variabile `x`, la distribuzione di frequenze assolute diventa:
+
+| Intervallo | frequenza |
+|------------|-----------|
+| (0, 2] | 5 |
+| (2, 4] | 1 |
+| (4, 6] | 2 |
+| (6, 8] | 0 |
+
+Se invece consideriamo gli intervalli chiusi a sinistra e aperti a destra, `[a, b)`, ovvero
+
+$$
+a \leq x < b,
+$$
+
+allora otteniamo una diversa distribuzione di frequenze assolute:
+
+| Intervallo | frequenza |
+|------------|-----------|
+| [0, 2) | 3 |
+| [2, 4) | 3 |
+| [4, 6) | 1 |
+| [6, 8) | 1 |
+
+Usiamo ora R per ottenere i risultati precedenti.  
+
+Uno dei modi possibili per calcolare le frequenze assolute è quello di usare la funzione `cut()`. Mediante tal funzione è possibile dividere il *campo di variazione* (ovvero, la differenza tra il valore massimo di una distribuzione ed il valore minimo) di una variabile continua `x` in intervalli e codificare ciascun valore `x` nei termini dell'intervallo a cui appartiene. 
+
+Iniziamo con gli intervalli aperti a sinistra e chiusi a destra:
+
+```{r}
+x_cat <- cut(
+    x,
+    breaks = c(0, 2, 4, 6, 8),
+    right = TRUE
+)
+```
+
+Possiamo ora usare la funzione `table()` la quale ritorna una tabella con le frequenze assolute di ciascuna modalità della variabile in input.
+
+```{r}
+table(x_cat)
+```
+
+
+La distribuzione di frequenze per intervalli chiusi a sinistra e aperti a destra è:
+
+```{r}
+x_cat <- cut(
+    x,
+    breaks = c(0, 2, 4, 6, 8),
+    right = FALSE
+)
+```
+
+```{r}
+table(x_cat)
+```
+
+
+## Istogramma
+
+Creiamo ora un istogramma usando i valori `x`.
+
+Qual è l'altezza della barra in corrispondeza dell'intervallo (0,2]?
+
+La base è pari a 2 e l'area è 5/8. Dunque l'altezza è 
+
+```{r}
+(5 / 8) / 2
+```
+
+Usiamo `ggplot()`
+
+```{r}
+x %>%
+    as.data.frame() %>%
+    ggplot(aes(x = x)) +
+    geom_histogram(
+        aes(y = after_stat(density)),
+        breaks = c(0, 2, 4, 6, 8)
+    )
+```
+
+Questo ci conferma che, di default, `ggplot()` usa intervalli chiusi a destra.
+
+Cambiamo ora il default e specifichiamo intervalli chiusi a sinistra:
+
+```{r}
+x %>%
+    as.data.frame() %>%
+    ggplot(aes(x = x)) +
+    geom_histogram(
+        aes(y = after_stat(density)),
+        breaks = c(0, 2, 4, 6, 8),
+        closed = "left"
+    )
+```
+
+
+
+# Manipolazione dei dati (importazione e pulizia)
+
+Considereremo ora i dati di Zetsche, Bürkner, & Renneberg (2020) e ci poniamo il problema di descrivere la distribuzione dei punteggi BDI-II dei 67 partecipanti.  Uno di essi non ha risposto e quindi c'è un dato mancante.
+
+Creiamo la varibile `bdi` che contiene i valori del valore BDI-II dei 66 soggetti:
+
+```{r}
+bysubj <- data.frame(
+    bdi <- c(
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+        1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 5, 7, 9, 12, 19,
+        22, 22, 24, 25, 25, 26, 26, 26, 27, 27, 28, 28, 30, 30, 30, 31, 31, 33,
+        33, 34, 35, 35, 35, 36, 39, 41, 43, 43, 44
+    )
+)
+```
+
+
+# Calcolo delle frequenze assolute
+
+I seguenti cut-off vengono usati per interpretare il BDI‐II: 
+
+- depressione minima = 0 -- 13, 
+- depressione lieve = 14 -- 19, 
+- depressione moderata = 20 -- 28,
+- depressione severa = 29 -- 63. 
+
+Calcoliamo le frequenze assolute per i seguenti intervalli aperti a destra: [0, 13.5), [13.5, 19.5), [19.5, 28.5), [28.5, 63). Esaminando i dati, vediamo che 36 soggetti cadono nella prima classe. Dobbiamo però eseguire quest'operazione di conteggio utilizzando R. 
+
+```{r}
+bysubj$bdi_level <- cut(
+    bysubj$bdi,
+    breaks = c(0, 13.5, 19.5, 28.5, 63),
+    include.lowest = TRUE,
+    labels = c(
+        "minimal", "mild", "moderate", "severe"
+    )
+)
+
+bysubj$bdi_level
+```
+
+```{r}
+table(bysubj$bdi_level)
+```
+
+Per ottenere le frequenze relative è sufficiente dividere ciascuna frequenza assoluta per il numero totale di osservazioni:
+
+```{r}
+table(bysubj$bdi_level) / sum(table(bysubj$bdi_level))
+```
+
+In questo modo abbiamo ottenuto le distribuzioni di frequenza assoluta e relativa.
+
+Limiti delle classi Frequenza assoluta Frequenza relativa 
+------------------- ------------------ ------------------
+[0, 13.5)              36                    36/66
+[13.5, 19.5)           1                     1/66
+[19.5, 28.5)           12                    12/66
+[28.5, 63]             17                    17/66
+
+
+# Istogramma
+
+L'istogramma delle frequenze assolute disegna un rettangolo sopra ogni intervallo specificato, la cui altezza corrisponde alla frequenza assoluta della classe. Per esempio, alla classe [0, 13.5] abbiamo associato la frequenza assoluta di 36.  Nell'istogramma delle frequenze assolute l'altezza del primo rettangolo sarà dunque uguale a 36. 
+
+Nell'istogramma delle frequenze relative viene invece rappresentata la frequenza relativa delle classi: l'area di ogni rettangolo è proporzionale alla frequenza relativa della classe. Come si trova l'altezza delle barre dell'istogramma in tali circostanze? Per la classe [0, 13.5), ad esempio, la frequenza relativa è 36/66. Tale valore corrisponde all'area del rettangolo.  Dato che la base del rettangolo è 13.5, l'altezza sarà 36/66 / 13.5, ovvero {r 36/66 / 13.5}. E così via per le altre barre dell'istogramma.
+
+
+## Visualizzazione con `ggplot()`
+
+```{r}
+p1 <- bysubj %>%
+    ggplot(aes(x = bdi)) +
+    geom_histogram(
+        aes(y = after_stat(density)),
+        breaks = c(0, 13.5, 19.5, 28.5, 44.1) # il valore BDI-II massimo è 44
+    ) +
+    scale_x_continuous(breaks = c(0, 13.5, 19.5, 28.5, 44.1)) +
+    labs(
+        x = "BDI-II",
+        y = "Densità di frequenza"
+    )
+p1
+```
+
+È più comune, però, utilizzare classi di ampiezza uguale.
+
+```{r}
+p2 <- bysubj %>%
+    ggplot(aes(x = bdi)) +
+    geom_histogram(
+        aes(y = after_stat(density)),
+        breaks = seq(0, 44.1, length.out = 7)
+    ) +
+    scale_x_continuous(breaks = c(0.00, 7.35, 14.70, 22.05, 29.40, 36.75, 44.10)) +
+    labs(
+        x = "BDI-II",
+        y = "Densità di frequenza",
+        caption = "Fonte: Zetsche, Buerkner, & Renneberg (2020)"
+    )
+```
+
+```{r}
+p1 + p2
+```
+
+
+## Limite dell'istogramma
+
+Come abbiamo notato sopra, uno dei limiti degli istogrammi è che il profilo dell'istogramma è arbitrario: a seconda del numero e dei limiti delle classi che vengono scelte, cambiano sia il numero che la forma delle barre dell'istogramma.
+
+
+# La densità della frequenza dei dati 
+
+Il problema precedente può essere alleviato utilizzando una rappresentazione alternativa della distribuzione di frequenza, ovvero la stima della *densità della frequenza* dei dati. Un modo semplice per pensare a tale rappresentazione, che in inglese va sotto il nome di *density plot*, è quello di immaginare un grande campione di dati, in modo che diventi possibile definire un enorme numero di classi di equivalenza di ampiezza molto piccola, le quali non risultino vuote. In tali circostanze, la funzione di densità empirica non è altro che il profilo `lisciato' dell'istogramma. La stessa idea si applica anche quando il campione è più piccolo. Un esempio è fornito nella figura seguente.
+
+```{r}
+p3 <- bysubj %>%
+    ggplot(aes(x = bdi)) +
+    geom_histogram(
+        aes(y = after_stat(density)),
+        breaks = seq(0, 44.1, length.out = 7)
+    ) +
+    geom_density(
+        aes(x = bdi),
+        adjust = 0.5,
+        size = 0.8,
+        fill = "steelblue3",
+        alpha = 0.5
+    ) +
+    labs(
+        x = "BDI-II",
+        y = "Densità di frequenza"
+    )
+p3
+```
+
+Guardando il grafico della densità della frequenza dei dati possiamo notare che ci sono due valori che tendono a ricorrere più spesso nella distribuzione dei punteggi del BDI-II. Il primo valore tipico è di poco superiore allo zero. Il secondo valore tipico è all'incirca uguale a 25. Tali valori tipici si chiamano *mode*.  Nel caso presente è sensato che una moda della distribuzione corrisponda ad un valore BDI-II molto basso, dato che il campione include 36 soggetti sani, e che una moda corrisponda ad un valore BDI-II di depressione moderata/severa, in quanto il campione include 30 soggetti clinicamente depressi. Ovviamente, se vogliamo rappresentare solo la densità della frequenza dei dati (senza l'istogramma) procediamo come indicato qui sotto.
+
+
+```{r}
+p4 <- bysubj %>%
+    ggplot(aes(x = bdi)) +
+    geom_density(
+        aes(x = bdi),
+        adjust = 0.5,
+        size = 0.8,
+        fill = "steelblue3",
+        alpha = 0.5
+    ) +
+    labs(
+        x = "BDI-II",
+        y = "Densità di frequenza",
+        caption = "Fonte: Zetsche, Buerkner, & Renneberg (2020)"
+    )
+p4
+```
+
+```{r}
+p3 + p4
+```
+
+# Conclusioni
+
+- L'area totale di un istogramma è pari a 1.0.
+- Quando guardiamo un istogramma dobbiamo pensare che l'area di ciascuna barra è uguale alla *frequenza relativa* (ovvero alla proporzione) dei casi che cadono in quella classe.
+- L'istogramma ci dice come si *distribuiscono* (proporzionalmente) le osservazioni di un campione nelle classi che sono state definite.
+- Il fatto che l'area totale dell'istogramma sia unitaria significa che essa è la somma di tutte le proporzioni rappresentate dalla barre dell'istogramma.
+- Il grafico della *funzione di densità empirica* attenua l'arbitrarietà della scelta del numero e della dimensione delle classi dell'istogramma e ci fornisce una rappresentazione grafica maggiormente comprensibile.
+
+
+
+### Informazioni sulla sessione di lavoro {-}
+
+```{r, echo = FALSE}
+sessioninfo::session_info()
+```
+
+
+

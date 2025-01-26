@@ -1,0 +1,56 @@
+---
+title: "CaudekLab"
+preview: images/caudeklab_img.png
+toc: true
+toc-location: left
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+::: {.grid}
+
+::: {.g-col-12}
+
+<center>
+<img src="images/caudeklab_img.png" width=100%>
+</center>
+
+:::
+
+::: {.g-col-12}
+
+The [CaudekLab](https://www.facebook.com/people/Caudeklab/100063182233670/) engages in interdisciplinary research that investigates:  
+
+- **Individual differences in cognitive processes**;  
+- **Cognitive processes in diverse clinical populations**, including individuals with obsessive-compulsive disorder, eating disorders, depression, and psychopathy;  
+- **Learning processes and cognitive control**;  
+- **Memory, attention, and perception**;  
+- **Intelligence**;  
+- **Self-compassion**;  
+- **Cognitive mechanisms underlying the reception of fake news**;  
+- **The impact of surprise on mental processes**;  
+- **Development and validation of psychometric instruments**.  
+
+:::
+
+:::
+
+
+# Opportunities  
+
+## Current Opportunities  
+
+**Se sei interessato/a a lavorare con me come relatore, sia per la prova finale L-24 che per il progetto di tesi magistrale LM-51, non esitare a contattarmi via email.** Sarò felice di discutere i tuoi interessi accademici, coinvolgerti in un progetto di ricerca del laboratorio e/o aiutarti a sviluppare un progetto personalizzato in linea con le tue esigenze e aspirazioni.  
+
+If you are interested in working with me as your advisor, feel free to reach out to me via email. I would be happy to discuss potential projects and provide guidance tailored to your academic interests.  
+
+## Visitors  
+
+I warmly welcome visiting scholars and students to join my lab. While I currently do not have funding available to sponsor visitors, I would be delighted to host you if you can secure funding through your own institution or other sources. To explore this opportunity, please email me your CV and a detailed research plan so we can discuss potential collaborations further.  
+

@@ -1,0 +1,30 @@
+---
+title: "Bibliografia"
+description: |
+  Bibliografia della prova finale e della tesi di laurea magistrale.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 10-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - L-24
+  - LM-51
+  - teaching
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Ho creato un breve [video](https://drive.google.com/file/d/1PAXPIRlzUhoUhX5Lips0Ttcj-kmGBb1-/view?usp=sharing) con le istruzioni per creare la bibliografia delle tesi di laurea. Ci sono tanti tutorial sul web per affrontare questo problema: le semplici considerazioni che fornisco qui sono un possibile punto di partenza. 
+
+Al di là delle cose che dico qui, consiglio fortemente tutti i laureandi, triennali e magistrali, di scrivere la tesi di laurea in R Markdown, usando le indicazioni fornite in un altro post e, soprattutto, di utilizzare bibtex per la bibliografia, in modo tale essere sicuri di ottenere il risultato corretto senza doversi preoccupare di applicare le (complicate) regole APA -- i ricercatori fanno così quando scrivono un articolo.
+
+
+
+

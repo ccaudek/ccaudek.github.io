@@ -1,0 +1,44 @@
+---
+title: "La struttura del progetto"
+description: |
+  Salvare e assegnare un nome ai documenti di un progetto.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 09-25-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - R
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Di seguito riporto il [link](https://drive.google.com/file/d/17MaYG_uT_UfjK31O9H2JCIxiOCT1yE7p/view?usp=sharing) ad un breve video-tutorial che cerca di rispondere alle seguenti domande: come organizzo tutto il materiale che fa parte di un progetto? Quali sono i principi che devo seguire per assegnare i nomi ai file? Come devo organizzare i file nelle cartelle?  L'obiettivo è quello di immagazzinare sul computer il lavoro che abbiamo fatto in maniera tale che, in futuro, sarà facile recuperare quello che ci serve. E in modo tale che sia facile lavorare al nostro progetto nel presente.
+
+Le considerazioni che faccio fanno riferimento a delle raccomandazioni che "sono nell'aria", ovvero, che sono condivise da molte persone. Questo materiale è stato organizzato in una serie di video youtube da Danielle Navarro e io mi limito a commentare brevemente quello che lei dice.  Ovviamente, invece di seguire il mio video-tutorial, potete guardare direttamente i video di Danielle Navarro.
+
+Una cosa che mi sono dimenticato di dire nel mio video, e che invece è presente nei video youtube, è la seguente: dove dobbiamo salvare la cartella che contiene tutto il materiale di un progetto?  Pessime risposte a questa domanda sono: il `Desktop` oppure la cartella di `Download`. Peggio di così non si può fare. Perché sia il `Desktop` sia la cartella `Download` contengono informazioni transienti, ovvero file che butterete via ad un certo punto -- presto, si spera.  Invece la cartella che contiene il vostro progetto contiene il frutto del vostro lavoro -- e certamente non volete cancellarla _per sbaglio._  Quindi, un'idea molto migliore è quella di salvare la cartella del progetto __nella cloud__, ovvero, sul vostro comupter in cartelle come `OneDrive` o `Dropbox`.
+
+Spero che questo sia utile.
+
+
+### Informazioni sulla sessione di lavoro {-}
+
+<details>
+<summary>
+Session Info
+</summary>
+Sono qui fornite le informazioni sulla sessione di lavoro insieme all'elenco dei pacchetti usati. I pacchetti contrassegnati con un asterisco(*) sono stati usati esplicitamente nello script.
+```{r, echo = FALSE}
+sessioninfo::session_info()
+```
+
+</details>
+
+

@@ -1,0 +1,28 @@
+---
+title: "Manipolazione dei dati con dplyr"
+description: |
+  Tutorial sulle funzionalità di dplyr per la manipolazione dei dati.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 09-26-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - R
+  - Psicometria
+  - L-24
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Aggiungo qui il [link](https://drive.google.com/file/d/1AV-shsx5wNCar2VjHUh4cbIt84f1Dytw/view?usp=sharing) ad un video-tutorial che ho preparato relativamente alla manipolaizone dei dati usando le funzioni del pacchetto `dplyr`. 
+
+Nel video non faccio altro che commentare un tutorial predisposto da Allison Horst e disponibile seguendo questo  [link](https://allisonhorst.shinyapps.io/dplyr-learnr/#section-welcome). Il tutorial di Allison Horst è fatto benissimo e non vedo ragioni di tradurlo o cambiarlo in qualche modo. Inoltre, se andate nella pagina web che ho indicato sopra, potete anche fare degli esercizi che vi consentono di verificare se avete capito come utilizzare in pratica le istruzioni `R` che vengono discusse -- le risposte agli esercizi sono immediatamente disponibili il che rende il tutorial di Allison Horst un utilissimo strumento di apprendimento. Buon divertimento!
+
+
+

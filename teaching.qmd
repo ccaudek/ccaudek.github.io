@@ -1,0 +1,21 @@
+---
+title: "Teaching"
+description: I teach undergraduate and graduate courses on data analysis and psychological assessment at the [School of Psychology](http://emse.seas.gwu.edu/) at the University of Florence, Italy.
+toc: true
+toc-location: left
+toc-title: "Courses"
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+# Current Corses (AA 2024-2025)
+
+- [Psicometria](https://ccaudek.github.io/psicometria-r/)
+- [Testing Psicologico](https://ccaudek.github.io/testing_psicologico/)
+- [Laboratorio di Testing Psicologico](https://ccaudek.github.io/labtestpsi/)
+- [Laboratorio di valutazione psicologica](https://unifi.coursecatalogue.cineca.it/insegnamenti/2024/25997_B018-17-22_72779_624243/2017/25998/477?coorte=2022)

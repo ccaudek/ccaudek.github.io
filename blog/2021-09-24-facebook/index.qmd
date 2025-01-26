@@ -1,0 +1,22 @@
+---
+title: "Facebook"
+description: |
+  La pagina Facebookd del laboratorio.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 09-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - social media
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+È attiva la pagina [facebook](https://www.facebook.com/Caudeklab-107236460995667/) del laboratorio.  Contiene informazioni su progetti in corso e presentazioni dei laureandi. È una creazione dei torocinanti del laboratorio.
+
+

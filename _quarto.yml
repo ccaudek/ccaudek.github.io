@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 5896
+    browser: true
+  render:
+    - "index.qmd"
+    - "about.qmd"
+    - "lab.qmd"
+    - "research.qmd"
+    - "teaching.qmd"
+    - "blog/index.qmd"
+    - "blog/**/*.qmd"
+    - "404.qmd"
+  resources:
+    - "content/"
+    - "css"
+    - "splitkbcompare.html"
+    - "static/"
+
+website:
+  title: "Home"
+  description: "The personal website of Corrado Caudek"
+  image: images/lab/john_helveston_circle.png
+  site-url: https://ccaudek.github.io/
+  favicon: images/favicon/favicon.ico
+  repo-url: https://github.com/ccaudek/ccaudek.github.io
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: false
+  google-analytics: "G-HQNG5WQE3X"
+  open-graph:
+    locale: es_ES
+    site-name: https://ccaudek.github.io
+  navbar:
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Lab"
+        href: lab.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+  page-footer:
+    center:
+      - text: "<a href='https://github.com/ccaudek' target='blank'><i class='bi bi-github'></i></a> &nbsp;</a> &nbsp;<a href='https://scholar.google.com/citations?user=oSWpPNUAAAAJ&hl=en&authuser=1' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;</a> &nbsp;<a href='https://orcid.org/0000-0002-1404-0420' target='blank'><i class='ai ai-orcid fa-lg'></i></a><br>Site made with <i class='bi bi-heart-fill'></i>, <a href='https://github.com/ccaudek/' target='_blank'><i class='bi bi-git'></i></a>, and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Corrado Caudek"
+
+format:
+  html:
+    theme: [default, css/theme.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    # This is to include fontawesome and academic icons in the headers:
+    include-in-header: "_includes/header.html"

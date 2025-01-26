@@ -1,0 +1,23 @@
+---
+title: "Istruzioni prova finale L-24"
+description: |
+  Tutto quello che avreste voluto sapere sulla prova finale L-24 ma non avete mai osato chiedere.
+author:
+  - name: Corrado Caudek
+date: 10-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - L-24
+  - teaching
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Mediante questo [link](https://drive.google.com/open?id=1x4lI7VUn5JmRki-87my1f6gyLcw4TIuW) potete accedere ad  un video in cui rispondo a tutte le possibili domande che potreste avere su questo argomento. Descriverò la  procedura che consiglio per realizzare l'elaborato finale e per preparare la presentazione orale. Una volta scritto l'elaborato finale seguendo queste istruzioni, potete iniziare a lavorare alla presentazione orale. Sulla presentazione orale riceverete poi altri feedback negli incontri settimanali con i laureandi che saranno specificamente dedicati a questo tema. 
+
+

@@ -1,0 +1,39 @@
+---
+title: "Research"
+format: html 
+toc: true
+toc-location: left
+---
+
+
+::: {.grid}
+
+::: {.g-col-3}
+
+<center>
+<img src="images/caudek_lab_logo.png" width=100%>
+</center>
+
+:::
+
+::: {.g-col-9}
+
+In my recent research, I dive into the intricacies of psychopathology through the innovative lens of computational psychiatry, adopting dimensional approaches to better understand psychological traits and symptoms. My work bridges multiple domains, including personality disorders, obsessive-compulsive symptoms, psychopathy, and psychological resilience, offering insights that transcend traditional diagnostic boundaries. 
+
+:::
+
+:::
+
+
+One focus of my research explores individual differences in psychological resilience. I focus on how personality traits interact with self-compassion to influence how people respond to significant stressors. To capture the richness of these dynamics, I employ *Ecological Momentary Assessment* (EMA)—a method that collects data in real-world settings, revealing how behaviors and experiences unfold in the moment.  
+
+Another strand of my work is the *Triarchic Model of Psychopathy*, where I examine its external validity and predictive power across diverse contexts. For example, I investigate how psychopathy-related traits influence intimate partner dynamics or shape risk perception during global challenges like the COVID-19 pandemic.  
+
+I also delve into "Not Just Right Experiences" (NJRE)—a fascinating psychological phenomenon that may serve as an endophenotype for obsessive-compulsive symptoms. My research investigates how these experiences connect with broader personality traits and clinical patterns, shedding light on their role in the spectrum of mental health and well-being.  
+
+Through these diverse research avenues, my goal is to uncover fundamental patterns underlying human behavior and to contribute to the development of personalized, evidence-based interventions that effectively address psychological disorders.
+
+## Publications
+
+A list of my publications can be found on [Google Scholar](https://scholar.google.com/citations?user=OYLOGvMAAAAJ&hl=en), [Orchid ID](https://orcid.org/0000-0002-1404-0420) or [Scopus](https://www.scopus.com/authid/detail.uri?authorId=6701671980).
+

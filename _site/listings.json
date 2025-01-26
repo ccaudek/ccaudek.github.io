@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/2015-transportation-research-part-a-policy-and-practice/index.html",
+      "/research/2018-transportation-research-part-b-methodological/index.html",
+      "/research/2019-environmental-research-letters/index.html",
+      "/research/2019-research-policy/index.html",
+      "/research/2019-science/index.html",
+      "/research/2020-environmental-research-letters/index.html",
+      "/research/2020-marketing-letters/index.html",
+      "/research/2021-systems-engineering/index.html",
+      "/research/2022-environmental-research-letters/index.html",
+      "/research/2022-nature/index.html",
+      "/research/2023-joule/index.html",
+      "/research/2023-journal-of-statistical-software/index.html",
+      "/research/2023-systems-engineering/index.html",
+      "/research/2023-transportation-research-record/index.html",
+      "/research/2024-environmental-research-letters/index.html",
+      "/research/2024-transport-policy/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2021-10-02-rescorla-wagner/index.html",
+      "/blog/2021-10-01-bibliografia/index.html",
+      "/blog/2021-10-01-istogramma/index.html",
+      "/blog/2021-10-01-istruzioni-prova-finale-l-24/index.html",
+      "/blog/2021-10-01-la-campana-di-gauss/index.html",
+      "/blog/2021-10-01-scrivere-la-tesi-con-r-markdown/index.html",
+      "/blog/2021-10-01-sommatorie/index.html",
+      "/blog/2021-09-26-introduzione-a-r-markdown/index.html",
+      "/blog/2021-09-26-manipolazione-dei-dati-con-dplyr/index.html",
+      "/blog/2021-09-25-la-struttura-del-progetto/index.html",
+      "/blog/2021-09-24-facebook/index.html",
+      "/blog/2021-09-20-stimatori-distorti-e-non-distorti-della-varianza/index.html"
+    ]
+  }
+]

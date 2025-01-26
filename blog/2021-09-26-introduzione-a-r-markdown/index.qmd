@@ -1,0 +1,29 @@
+---
+title: "Introduzione a R Markdown"
+description: |
+  Integrazione tra R e il linguaggio di markup Markdown.
+author:
+  - name: Corrado Caudek
+    url: {}
+date: 09-26-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - R
+  - teaching
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Posto qui il [link](https://drive.google.com/file/d/1dTXClK-EB_FJc9N4OVNl62N4oB9Olxdz/view?usp=sharing) ad un breve video-tutorial sull'uso di R Markdown.
+
+La migliore descrizione del flusso di lavoro (workflow) con R Markdown è fornita in questo [capitolo](https://r4ds.had.co.nz/r-markdown-workflow.html) di [R for Data Science](https://r4ds.had.co.nz/index.html).
+
+Per chi ha bisogno di un'introduzione, risultano sicuramente utili anche le [slide](https://slides.djnavarro.net/starting-rmarkdown/#1) di Danielle Navarro.
+
+
