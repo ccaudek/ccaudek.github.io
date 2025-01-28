@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-description: I teach undergraduate and graduate courses on data analysis and psychological assessment at the [School of Psychology](http://emse.seas.gwu.edu/) at the University of Florence, Italy.
+description: "I teach undergraduate and graduate courses on data analysis and psychological assessment at the [School of Psychology](http://emse.seas.gwu.edu/) at the University of Florence, Italy. Additionally, I teach a class in the postgraduate specialization course 'Meditazione, Compassione e Gestione Emozionale per le Professioni di Aiuto'."
 toc: true
 toc-location: left
 toc-title: "Courses"
@@ -9,27 +9,28 @@ execute:
   warning: false
 ---
 
-```{r setup}
-source("_common.R")
-```
-
-# Current Corses (AA 2024-2025)
+# Current Corses (Academic Year 2024-2025)
 
 [Scienze e Tecniche Psicologiche](https://www.psicologia.unifi.it/vp-130-scienze-e-tecniche-psicologiche-l-24.html)
 
-- [Psicometria](https://ccaudek.github.io/psicometria-r/)
-- [Laboratorio di valutazione psicologica](https://unifi.coursecatalogue.cineca.it/insegnamenti/2024/25997_B018-17-22_72779_624243/2017/25998/477?coorte=2022)
+- [Psicometria.](https://ccaudek.github.io/psicometria-r/)
+Introduction to data analysis and statistical methods for psychological research.
+- [Laboratorio di valutazione psicologica.](https://unifi.coursecatalogue.cineca.it/insegnamenti/2024/25997_B018-17-22_72779_624243/2017/25998/477?coorte=2022)
+Hands-on training in psychological assessment techniques.
 
 [Psicologia Clinica e della Salute e Neuropsicologia](https://unifi.coursecatalogue.cineca.it/corsi/2024/3252?annoOrdinamento=2023)
 
-- [Testing Psicologico](https://ccaudek.github.io/testing_psicologico/)
-- [Laboratorio di Testing Psicologico](https://ccaudek.github.io/labtestpsi/)
+- [Testing Psicologico.](https://ccaudek.github.io/testing_psicologico/)
+Advanced course on psychological testing and measurement.
+- [Laboratorio di Testing Psicologico.](https://ccaudek.github.io/labtestpsi/)
+Practical applications of psychological testing methodologies.
 
-## Corso di Perfezionamento Post-Laurea
+## Postgraduate Specialization Course
 
 [Meditazione, Compassione e Gestione Emozionale per le Professioni di Aiuto](https://ccaudek.github.io/compassion/intro.html)
 
-- [Training cognitivo e contemplativo per lo sviluppo della compassione](https://ccaudek.github.io/perfezionamento/)
+- [Training cognitivo e contemplativo per lo sviluppo della compassione.](https://ccaudek.github.io/perfezionamento/)
+A course focused on cognitive and contemplative practices to cultivate compassion and emotional regulation in helping professions.
 
 
 

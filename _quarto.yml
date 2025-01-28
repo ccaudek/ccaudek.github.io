@@ -22,7 +22,7 @@ project:
 website:
   title: "Home"
   description: "The personal website of Corrado Caudek"
-  image: images/lab/john_helveston_circle.png
+  image: images/ccaudek_photo.png
   site-url: https://ccaudek.github.io/
   favicon: images/favicon/favicon.ico
   repo-url: https://github.com/ccaudek/ccaudek.github.io
