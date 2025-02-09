@@ -54,12 +54,7 @@ format:
   html:
     # theme: [default, css/theme.scss]
     theme:
-      dark:
-      - cosmo
-      - css/dark.scss
-      light:
-      - cosmo
-      - css/styles.scss
+      - ath.scss
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
