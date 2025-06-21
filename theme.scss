@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+/* links */
+$link-decoration: underline;
+
+/* typography */
+$font-family-serif: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+$font-family-sans-serif: Helvetica, Verdana, Arial, sans-serif;
+$font-family-monospace: Fira Code;
+
+/*-- scss:rules --*/
+
+body {
+  font-family: $font-family-serif;
+  color: $body-color;
+  background: $body-bg;
+  display: flex;
+  flex-flow: column;
+  margin-left: 1.19rem;
+  margin-right: 1.19rem;
+  margin-top: 0;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  /*font-style: italic;*/
+}
+
+.left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+.hello-quarto-banner h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
