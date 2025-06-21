@@ -24,7 +24,7 @@ website:
   description: "The personal website of Corrado Caudek"
   image: images/ccaudek_photo.jpeg
   site-url: https://ccaudek.github.io/
-  favicon: images/favicon/favicon.ico
+  favicon: images/favicon.ico
   repo-url: https://github.com/ccaudek/ccaudek.github.io
   search:
     location: navbar
@@ -35,7 +35,7 @@ website:
     locale: es_ES
     site-name: https://ccaudek.github.io
   navbar:
-    right:
+    left:
       - text: "About"
         href: about.qmd
       - text: "Lab"

@@ -9,7 +9,7 @@ execute:
   warning: false
 ---
 
-# Current Corses (Academic Year 2024-2025)
+## Current Corses (Academic Year 2024-2025)
 
 [Scienze e Tecniche Psicologiche](https://www.psicologia.unifi.it/vp-130-scienze-e-tecniche-psicologiche-l-24.html)
 

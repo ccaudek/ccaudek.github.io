@@ -14,15 +14,15 @@ source("_common.R")
 
 I am an Associate Professor of Psychometrics and Quantitative Psychology at [Università degli Studi di Firenze](https://www.unifi.it) in Italy. 
 
-# Short Bio
+## Short Bio
 
 Prior to joining the University of Florence, I was a Postdoctoral Researcher at the [Center for Neural Science](https://as.nyu.edu/cns.html) at [New York University](http://www.nyu.edu), a Postdoctoral Researcher at [University of Trieste](https://www.units.it), and an Associate Professor at [University of Trieste](https://www.units.it).
 
-# Contact Me
+## Contact Me
 
 The easiest way to get in touch with me is by [email](mailto:corrado.caudek@unifi.it).
 
-# Location
+## Location
 
 Dipartimento [NEUROFARBA](https://www.neurofarba.unifi.it), Università degli Studi di Firenze
 
